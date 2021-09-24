@@ -1,0 +1,17 @@
+##############################################################################
+## Filename:          C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/data/l2_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Dec 01 15:50:48 2011 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib l2_v1_00_a L2 vhdl
+lib l2_v1_00_a data_bank vhdl
+lib l2_v1_00_a LRU_policy vhdl
+lib l2_v1_00_a npi vhdl
+lib l2_v1_00_a npi2 vhdl
+lib l2_v1_00_a ring_buffer vhdl
+lib l2_v1_00_a ring_buffer_returned vhdl
+lib l2_v1_00_a tag_bank vhdl
+lib l2_v1_00_a L2_cfg vhdl
+lib l2_v1_00_a sram_cntlr vhdl
+lib l2_v1_00_a reuse_bank vhdl

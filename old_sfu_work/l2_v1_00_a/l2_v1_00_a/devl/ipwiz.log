@@ -1,0 +1,134 @@
+HDL language for the peripheral (top level) design unit tag_bank is vhdl ...
+INFO:EDK:3391 - Create temporary xst project file:
+   C:\Kevan\L2_test_13.3\pcores/l2_cache.prj
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/L2_cfg.vhd" in Library
+l2_cache_v1_00_a.
+Package <L2_cfg> compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/sram_cntlr.vhd" in Library
+l2_cache_v1_00_a.
+Entity <sram_cntlr> compiled.
+Entity <sram_cntlr> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/data_bank.vhd" in Library
+l2_cache_v1_00_a.
+Entity <data_bank> compiled.
+Entity <data_bank> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/tag_bank.vhd" in Library
+l2_cache_v1_00_a.
+Entity <tag_bank> compiled.
+Entity <tag_bank> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/LRU_policy.vhd" in Library
+l2_cache_v1_00_a.
+Entity <LRU_policy> compiled.
+Entity <LRU_policy> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/ring_buffer.vhd" in Library
+l2_cache_v1_00_a.
+Entity <ring_buffer> compiled.
+Entity <ring_buffer> (Architecture <Structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/npi.vhd" in Library
+l2_cache_v1_00_a.
+Entity <NPI> compiled.
+Entity <NPI> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/L2.vhd" in Library
+l2_cache_v1_00_a.
+Entity <L2> compiled.
+Entity <L2> (Architecture <Behavioral>) compiled.
+
+
+Analyzing HDL attributes ...
+ERROR:EDK - Could not find top level entity l2_cache
+WARNING:EDK:3590 - Unable to delete temporary project file
+   C:\Kevan\L2_test_13.3\pcores\l2_cache.prj : 13
+HDL language for the peripheral (top level) design unit sram_cntlr is vhdl ...
+INFO:EDK:3391 - Create temporary xst project file:
+   C:\Kevan\L2_test_13.3\pcores/l2.prj
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/L2_cfg.vhd" in Library
+l2_v1_00_a.
+Package <L2_cfg> compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/sram_cntlr.vhd" in Library
+l2_v1_00_a.
+Entity <sram_cntlr> compiled.
+Entity <sram_cntlr> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/data_bank.vhd" in Library
+l2_v1_00_a.
+Entity <data_bank> compiled.
+Entity <data_bank> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/tag_bank.vhd" in Library
+l2_v1_00_a.
+Entity <tag_bank> compiled.
+Entity <tag_bank> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/LRU_policy.vhd" in Library
+l2_v1_00_a.
+Entity <LRU_policy> compiled.
+Entity <LRU_policy> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/ring_buffer.vhd" in Library
+l2_v1_00_a.
+Entity <ring_buffer> compiled.
+Entity <ring_buffer> (Architecture <Structural>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/npi.vhd" in Library l2_v1_00_a.
+Entity <NPI> compiled.
+Entity <NPI> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Kevan/L2_test_13.3/src/L2.vhd" in Library l2_v1_00_a.
+Entity <L2> compiled.
+Entity <L2> (Architecture <Behavioral>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = L2
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:3590 - Unable to delete temporary project file
+   C:\Kevan\L2_test_13.3\pcores\l2.prj : 13
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal FSL_Rst
+INFO:EDK:1951 - No SIGIS=CLK specified for probable Clock signal SRAM_CLK
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal FSL_Rst
+INFO:EDK:1951 - No SIGIS=CLK specified for probable Clock signal SRAM_CLK
+Copying file L2.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/ ...
+Copying file data_bank.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/
+...
+Copying file LRU_policy.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/
+...
+Copying file npi.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/ ...
+Copying file ring_buffer.vhd to
+C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/ ...
+Copying file tag_bank.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/
+...
+Copying file L2_cfg.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/ ...
+Copying file sram_cntlr.vhd to C:\Kevan\L2_test_13.3\pcores/l2_v1_00_a/hdl/vhdl/
+...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under C:\Kevan\L2_test_13.3\pcores\l2_v1_00_a.
+
+Summary:
+
+  Logical library     : l2_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : None
+
+The following sub-directories will be created:
+
+  - l2_v1_00_a\data
+  - l2_v1_00_a\hdl
+  - l2_v1_00_a\hdl\verilog
+  - l2_v1_00_a\hdl\vhdl
+
+
+The following HDL source files will be copied into the l2_v1_00_a\hdl\vhdl
+directory:
+
+  - L2.vhd
+  - data_bank.vhd
+  - LRU_policy.vhd
+  - npi.vhd
+  - ring_buffer.vhd
+  - tag_bank.vhd
+  - L2_cfg.vhd
+  - sram_cntlr.vhd
+
+The following files will be created under the l2_v1_00_a\data directory:
+
+  - l2_v2_1_0.mpd
+  - l2_v2_1_0.pao
+
+
