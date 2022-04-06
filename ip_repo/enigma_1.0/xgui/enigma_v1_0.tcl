@@ -6,7 +6,21 @@ proc init_gui { IPINST } {
   ipgui::add_param $IPINST -name "C_S00_AXI_BASEADDR" -parent ${Page_0}
   ipgui::add_param $IPINST -name "C_S00_AXI_HIGHADDR" -parent ${Page_0}
 
+  ipgui::add_param $IPINST -name "rotor1_type"
+  ipgui::add_param $IPINST -name "rotor2_type"
+  ipgui::add_param $IPINST -name "rotor3_type"
+  ipgui::add_param $IPINST -name "rotor4_type"
+  ipgui::add_param $IPINST -name "reflector_type"
 
+}
+
+proc update_PARAM_VALUE.reflector_type { PARAM_VALUE.reflector_type } {
+	# Procedure called to update reflector_type when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.reflector_type { PARAM_VALUE.reflector_type } {
+	# Procedure called to validate reflector_type
+	return true
 }
 
 proc update_PARAM_VALUE.rotor1_type { PARAM_VALUE.rotor1_type } {
@@ -82,5 +96,10 @@ proc update_MODELPARAM_VALUE.rotor3_type { MODELPARAM_VALUE.rotor3_type PARAM_VA
 proc update_MODELPARAM_VALUE.rotor4_type { MODELPARAM_VALUE.rotor4_type PARAM_VALUE.rotor4_type } {
 	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
 	set_property value [get_property value ${PARAM_VALUE.rotor4_type}] ${MODELPARAM_VALUE.rotor4_type}
+}
+
+proc update_MODELPARAM_VALUE.reflector_type { MODELPARAM_VALUE.reflector_type PARAM_VALUE.reflector_type } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.reflector_type}] ${MODELPARAM_VALUE.reflector_type}
 }
 

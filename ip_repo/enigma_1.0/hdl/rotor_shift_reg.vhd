@@ -1,7 +1,10 @@
 -------------------------------------------------------------------------------------
---
---
---
+--File Name:    rotor_shift_reg.vhd
+--Author:       Kevan Thompson 
+--Date:         April 5, 2022
+--Description:  Shift register that holds the rotor values. The values are 
+--              initialized using generics. Rn <= Rn-1. R0 <=Rmax
+--              The default generic is for rotor 1
 -------------------------------------------------------------------------------------
 
 
@@ -105,7 +108,11 @@ ARCHITECTURE Behavioral OF rotor_shift_reg IS
 	signal r23_s	: STD_LOGIC_VECTOR(4 DOWNTO 0) := r23_init;
 	signal r24_s	: STD_LOGIC_VECTOR(4 DOWNTO 0) := r24_init;
 	signal r25_s	: STD_LOGIC_VECTOR(4 DOWNTO 0) := r25_init;
-	
+
+---------------------------------------------------------------------
+--BEGIN 
+---------------------------------------------------------------------
+
 BEGIN
 
 	PROCESS(clk)

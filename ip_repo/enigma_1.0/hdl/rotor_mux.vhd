@@ -1,7 +1,10 @@
 -------------------------------------------------------------------------------------
---
---
---
+--File Name:    rotor_mux.vhd
+--Author:       Kevan Thompson 
+--Date:         April 5, 2022
+--Description:  This is a mux used to select the correct output from the rotor.
+--              The select signal is the encoded key value from either the input
+--              or previous rotor. 
 -------------------------------------------------------------------------------------
 
 
@@ -48,6 +51,10 @@ ENTITY rotor_mux IS
 END rotor_mux;
 	
 ARCHITECTURE Behavioral OF rotor_mux IS	
+
+-------------------------------------------------------------------------------
+--BEGIN
+-------------------------------------------------------------------------------
 	
 BEGIN
 

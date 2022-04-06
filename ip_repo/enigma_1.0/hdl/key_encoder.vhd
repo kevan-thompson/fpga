@@ -1,7 +1,9 @@
 -------------------------------------------------------------------------------------
---
---
---
+--File Name:    key_encoder.vhd
+--Author:       Kevan Thompson 
+--Date:         April 5, 2022
+--Description:  Takes in 26 key inputs which are essentially a 26 bit 1 hot encoded 
+--              signal and converts it into a 5 bit binary signal.  
 -------------------------------------------------------------------------------------
 
 
@@ -39,6 +41,7 @@ ENTITY key_encoder IS
 		x_in		: IN	STD_LOGIC;
 		y_in		: IN	STD_LOGIC;
 		z_in		: IN	STD_LOGIC;
+		--OUTPUT
 		encoded_op	: OUT	STD_LOGIC_VECTOR(4 downto 0)
 );
 END key_encoder;

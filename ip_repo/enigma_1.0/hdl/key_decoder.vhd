@@ -1,7 +1,10 @@
 -------------------------------------------------------------------------------------
---
---
---
+--File Name:    rotor-shift_reg.vhd
+--Author:       Kevan Thompson 
+--Date:         April 5, 2022
+--Description: This decoder will decode a 5 bit binary form of the output to a 
+--              26 bit one hot output. This is intended to replicate the lamps
+--              on an enigma machine. 
 -------------------------------------------------------------------------------------
 
 
@@ -53,12 +56,12 @@ ARCHITECTURE Behavioral OF key_decoder IS
 
 SIGNAL key_concat	: STD_LOGIC_VECTOR(27 downto 0);
 
+-------------------------------------------------------------------------------
+--BEGIN
+-------------------------------------------------------------------------------
+
 BEGIN
 
---key_concat <= "00" & z_in & y_in & x_in & w_in & v_in & u_in & t_in & s_in & r_in
---			  & q_in & p_in & o_in & n_in & m_in & l_in & k_in & j_in & i_in
---			  & h_in & g_in & f_in & e_in & d_in & c_in& b_in & a_in; 
-			  
 PROCESS ( encoded_ip ) 
 	BEGIN			  
 		CASE encoded_ip IS
