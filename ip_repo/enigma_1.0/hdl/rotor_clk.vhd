@@ -1,7 +1,10 @@
 -------------------------------------------------------------------------------------
---
---
---
+--File Name:    rotor_clk.vhd
+--Author:       Kevan Thompson 
+--Date:         April 5, 2022
+--Descrption:   This is generated the clock for the first rotor. This clock is 
+--              1 every time a button is pressed, and returns to 0 when the 
+--              button is released
 -------------------------------------------------------------------------------------
 
 

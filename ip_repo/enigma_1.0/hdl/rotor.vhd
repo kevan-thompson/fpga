@@ -12,7 +12,6 @@
 --              generics. The default generics correspond to rotor #1 
 -------------------------------------------------------------------------------------
 
-
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE ieee.numeric_std.ALL;
@@ -20,32 +19,7 @@ USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 ENTITY rotor IS
 	GENERIC ( 
-		r0_init 	: STD_LOGIC_VECTOR( 4 downto 0 ) := "00101";
-		r1_init 	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01011";
-		r2_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "01101";
-		r3_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "00110";
-		r4_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "01100";
-		r5_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "00111";
-		r6_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "00100";
-		r7_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "10001";
-		r8_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "10110";
-		r9_init		: STD_LOGIC_VECTOR( 4 downto 0 ) := "11010";
-		r10_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01110";
-		r11_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10100";
-		r12_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01111";
-		r13_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10111";
-		r14_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "11001";
-		r15_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01000";
-		r16_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "11000";
-		r17_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10101";
-		r18_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10011";
-		r19_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10000";
-		r20_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "00001";
-		r21_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01001";
-		r22_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "00010";
-		r23_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "10010";
-		r24_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "00011";
-		r25_init	: STD_LOGIC_VECTOR( 4 downto 0 ) := "01010"
+	    rotor_type : integer := 1
 		);
 	PORT ( 
 		clk			: IN	STD_LOGIC;
@@ -196,64 +170,249 @@ END COMPONENT;
 ---------------------------------------------------------------------	
 BEGIN
 
-rotor_shift_reg_i: rotor_shift_reg
-	GENERIC MAP (
-		r0_init => r0_init,
-		r1_init => r1_init,
-		r2_init => r2_init,
-		r3_init => r3_init,
-		r4_init => r4_init,
-		r5_init => r5_init,
-		r6_init => r6_init,
-		r7_init => r7_init,
-		r8_init => r8_init,
-		r9_init => r9_init,
-		r10_init => r10_init,
-		r11_init => r11_init,
-		r12_init => r12_init,
-		r13_init => r13_init,
-		r14_init => r14_init,
-		r15_init => r15_init,
-		r16_init => r16_init,
-		r17_init => r17_init,
-		r18_init => r18_init,
-		r19_init => r19_init,
-		r20_init => r20_init,
-		r21_init => r21_init,
-		r22_init => r22_init,
-		r23_init => r23_init,
-		r24_init => r24_init,
-		r25_init => r25_init
-	) 
-	PORT MAP(
-		clk => clk,
-		r0 => r0_s,
-		r1 => r1_s,
-		r2 => r2_s,
-		r3 => r3_s,
-		r4 => r4_s,
-		r5 => r5_s,
-		r6 => r6_s,
-		r7 => r7_s,
-		r8 => r8_s,
-		r9 => r9_s,
-		r10 => r10_s,
-		r11 => r11_s,
-		r12 => r12_s,
-		r13 => r13_s,
-		r14 => r14_s,
-		r15 => r15_s,
-		r16 => r16_s,
-		r17 => r17_s,
-		r18 => r18_s,
-		r19 => r19_s,
-		r20 => r20_s,
-		r21 => r21_s,
-		r22 => r22_s,
-		r23 => r23_s,
-		r24 => r24_s,
-		r25 => r25_s
-	);
+rotor_type1: IF rotor_type = 1 GENERATE 	
+	rotor_type1_inst: rotor_shift_reg
+		GENERIC MAP ( 
+			r0_init 	=> "00101", --E
+			r1_init 	=> "01011", --K
+			r2_init 	=> "01101", --M
+			r3_init 	=> "00110", --F
+			r4_init 	=> "01100", --L
+			r5_init		=> "00111", --G
+			r6_init		=> "00100", --D
+			r7_init 	=> "10001", --Q
+			r8_init 	=> "10110", --V
+			r9_init		=> "11010", --Z
+			r10_init	=> "01110", --N
+			r11_init	=> "10100", --T
+			r12_init	=> "01111", --O
+			r13_init	=> "10111", --W
+			r14_init	=> "11001", --Y
+			r15_init	=> "01000", --H
+			r16_init	=> "11000", --X
+			r17_init	=> "10101", --U
+			r18_init	=> "10011", --S
+			r19_init	=> "10000", --P
+			r20_init	=> "00001", --A
+			r21_init	=> "01001", --I
+			r22_init	=> "00010", --B
+			r23_init	=> "10010", --R
+			r24_init	=> "00011", --C
+			r25_init	=> "01010"  --J
+		)
+		PORT MAP ( 
+            clk => clk,
+            r0 => r0_s,
+            r1 => r1_s,
+            r2 => r2_s,
+            r3 => r3_s,
+            r4 => r4_s,
+            r5 => r5_s,
+            r6 => r6_s,
+            r7 => r7_s,
+            r8 => r8_s,
+            r9 => r9_s,
+            r10 => r10_s,
+            r11 => r11_s,
+            r12 => r12_s,
+            r13 => r13_s,
+            r14 => r14_s,
+            r15 => r15_s,
+            r16 => r16_s,
+            r17 => r17_s,
+            r18 => r18_s,
+            r19 => r19_s,
+            r20 => r20_s,
+            r21 => r21_s,
+            r22 => r22_s,
+            r23 => r23_s,
+            r24 => r24_s,
+            r25 => r25_s
+		);
+END GENERATE rotor_type1;
+
+rotor_type2: IF rotor_type = 2 GENERATE 	
+	rotor_type2_inst: rotor_shift_reg
+		GENERIC MAP ( 
+			r0_init 	=> "00001", --A
+			r1_init 	=> "01010", --J
+			r2_init 	=> "00100", --D
+			r3_init 	=> "01011", --K
+			r4_init 	=> "10011", --S
+			r5_init		=> "01001", --I
+			r6_init		=> "10010", --R
+			r7_init 	=> "10101", --U
+			r8_init 	=> "11000", --X
+			r9_init		=> "00010", --B
+			r10_init	=> "01100", --L
+			r11_init	=> "01000", --H
+			r12_init	=> "10111", --W
+			r13_init	=> "10100", --T
+			r14_init	=> "01101", --M
+			r15_init	=> "00011", --C
+			r16_init	=> "10001", --Q
+			r17_init	=> "00111", --G
+			r18_init	=> "11010", --Z
+			r19_init	=> "01110", --N
+			r20_init	=> "10000", --P
+			r21_init	=> "11001", --Y
+			r22_init	=> "00110", --F
+			r23_init	=> "10110", --V
+			r24_init	=> "01111", --O
+			r25_init	=> "00101"  --E
+		)
+		PORT MAP ( 
+            clk => clk,
+            r0 => r0_s,
+            r1 => r1_s,
+            r2 => r2_s,
+            r3 => r3_s,
+            r4 => r4_s,
+            r5 => r5_s,
+            r6 => r6_s,
+            r7 => r7_s,
+            r8 => r8_s,
+            r9 => r9_s,
+            r10 => r10_s,
+            r11 => r11_s,
+            r12 => r12_s,
+            r13 => r13_s,
+            r14 => r14_s,
+            r15 => r15_s,
+            r16 => r16_s,
+            r17 => r17_s,
+            r18 => r18_s,
+            r19 => r19_s,
+            r20 => r20_s,
+            r21 => r21_s,
+            r22 => r22_s,
+            r23 => r23_s,
+            r24 => r24_s,
+            r25 => r25_s
+		);
+END GENERATE rotor_type2;
+
+rotor_type3: IF rotor_type = 3 GENERATE 	
+	rotor_type3_inst: rotor_shift_reg
+		GENERIC MAP ( 
+			r0_init 	=> "00010", --B
+			r1_init 	=> "00100", --D
+			r2_init 	=> "00110", --F
+			r3_init 	=> "01000", --H
+			r4_init 	=> "01010", --J
+			r5_init		=> "01100", --L
+			r6_init		=> "00011", --C
+			r7_init 	=> "10000", --P
+			r8_init 	=> "10010", --R
+			r9_init		=> "10100", --T
+			r10_init	=> "11000", --X
+			r11_init	=> "10110", --V
+			r12_init	=> "11010", --Z
+			r13_init	=> "01110", --N
+			r14_init	=> "11001", --Y
+			r15_init	=> "00101", --E
+			r16_init	=> "01001", --I
+			r17_init	=> "10111", --W
+			r18_init	=> "00111", --G
+			r19_init	=> "00001", --A
+			r20_init	=> "01011", --K
+			r21_init	=> "01101", --M
+			r22_init	=> "10101", --U
+			r23_init	=> "10011", --S
+			r24_init	=> "10001", --Q
+			r25_init	=> "01111"  --O
+		)
+		PORT MAP ( 
+            clk => clk,
+            r0 => r0_s,
+            r1 => r1_s,
+            r2 => r2_s,
+            r3 => r3_s,
+            r4 => r4_s,
+            r5 => r5_s,
+            r6 => r6_s,
+            r7 => r7_s,
+            r8 => r8_s,
+            r9 => r9_s,
+            r10 => r10_s,
+            r11 => r11_s,
+            r12 => r12_s,
+            r13 => r13_s,
+            r14 => r14_s,
+            r15 => r15_s,
+            r16 => r16_s,
+            r17 => r17_s,
+            r18 => r18_s,
+            r19 => r19_s,
+            r20 => r20_s,
+            r21 => r21_s,
+            r22 => r22_s,
+            r23 => r23_s,
+            r24 => r24_s,
+            r25 => r25_s
+		);
+END GENERATE rotor_type3;
+
+rotor_type4: IF rotor_type = 4 GENERATE 	
+	rotor_type4_inst: rotor_shift_reg
+		GENERIC MAP ( 
+			r0_init 	=> "00101", --E
+			r1_init 	=> "10011", --S
+			r2_init 	=> "01111", --O
+			r3_init 	=> "10110", --V
+			r4_init 	=> "10000", --P
+			r5_init		=> "11010", --Z
+			r6_init		=> "01010", --J
+			r7_init 	=> "00001", --A
+			r8_init 	=> "11001", --Y
+			r9_init		=> "10001", --Q
+			r10_init	=> "10101", --U
+			r11_init	=> "01001", --I
+			r12_init	=> "10010", --R
+			r13_init	=> "01000", --H
+			r14_init	=> "11000", --X
+			r15_init	=> "01100", --L
+			r16_init	=> "01110", --N
+			r17_init	=> "00110", --F
+			r18_init	=> "10100", --T
+			r19_init	=> "00111", --G
+			r20_init	=> "01011", --K
+			r21_init	=> "00100", --D
+			r22_init	=> "00011", --C
+			r23_init	=> "01101", --M
+			r24_init	=> "10111", --W
+			r25_init	=> "00010"  --B
+		)
+		PORT MAP ( 
+            clk => clk,
+            r0 => r0_s,
+            r1 => r1_s,
+            r2 => r2_s,
+            r3 => r3_s,
+            r4 => r4_s,
+            r5 => r5_s,
+            r6 => r6_s,
+            r7 => r7_s,
+            r8 => r8_s,
+            r9 => r9_s,
+            r10 => r10_s,
+            r11 => r11_s,
+            r12 => r12_s,
+            r13 => r13_s,
+            r14 => r14_s,
+            r15 => r15_s,
+            r16 => r16_s,
+            r17 => r17_s,
+            r18 => r18_s,
+            r19 => r19_s,
+            r20 => r20_s,
+            r21 => r21_s,
+            r22 => r22_s,
+            r23 => r23_s,
+            r24 => r24_s,
+            r25 => r25_s
+		);
+END GENERATE rotor_type4;
 
 rotor_mux_i: rotor_mux	
 	PORT MAP(
