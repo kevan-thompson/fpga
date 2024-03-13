@@ -7,9 +7,17 @@ This project is my attempt to create an enigma machine in VHDL.
 
 Originally created by German engineer Arthur Scherbius in 1918, and produced by the  Scherbius & Ritter company in 1923 the Engima Machine would become famous during the Second World War. Thought unbreakable by the German military, the Enigma Machine would initially be cracked by Polish mathematicians and cryptologists in 1932, and later by the infamous Bletchly Park.
 
+<div style="text-align: center"> 
 
 ![Enigma Machine](./.pictures/enigma_machine.jpg "Enigma Machine")  
+
+</div>
+
+<div style="text-align: right">  
+
 [1](https://brilliant.org/wiki/enigma-machine/)
+
+</div>
 
 | Rotor # | ABCDEFGHIJKLMNOPQRSTUVWXYZ | Date Introduced | Model Name & Number      |
 | ------- | -------------------------- | --------------- | ------------------------ |
@@ -22,7 +30,11 @@ Originally created by German engineer Arthur Scherbius in 1918, and produced by 
 | VII     | NZJHGRCXMYSWBOUFAIVLPEKQDT | 1939            | M3 & M4 Naval (FEB 1942) |
 | VIII    | FKQHTLXOCBJSPDZRAMEWNIUYGV | 1939            | M3 & M4 Naval (FEB 1942) |  
 
+<div style="text-align: right">
+
 [2](https://en.wikipedia.org/wiki/Enigma_rotor_details)
+
+</div>
 
 
 ## ToDo
