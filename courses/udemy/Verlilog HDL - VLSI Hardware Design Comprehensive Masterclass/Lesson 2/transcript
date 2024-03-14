@@ -1,0 +1,121 @@
+# Compile of full_adder_st2.v was successful.
+# Compile of full_adder_st2.v was successful.
+# Compile of full_adder_df.v was successful.
+# Compile of full_adder_df.v was successful.
+# Compile of full_adder_bh.v failed with 2 errors.
+# Compile of full_adder_bh.v was successful.
+# Compile of full_adder_tb.v failed with 4 errors.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v was successful with warnings.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v was successful with warnings.
+# Compile of half_adder_st.v was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:37:39 on Mar 13,2024
+# Loading work.full_adder_tb
+# Loading work.full_adder_st
+add wave -position insertpoint  \
+sim:/full_adder_tb/a \
+sim:/full_adder_tb/b \
+sim:/full_adder_tb/cin \
+sim:/full_adder_tb/s_st1 \
+sim:/full_adder_tb/s_st2 \
+sim:/full_adder_tb/s_df \
+sim:/full_adder_tb/s_bh \
+sim:/full_adder_tb/cout_st1 \
+sim:/full_adder_tb/cout_st2 \
+sim:/full_adder_tb/cout_df \
+sim:/full_adder_tb/cout_bh
+run
+# time =                    0,	 a = 0,	 b = 0,	 cin = 0,	
+# 
+# 				s = 0,	 cout = 0
+# WARNING: No extended dataflow license exists
+restart
+run
+# time =                    0,	 a = 0,	 b = 0,	 cin = 0,	
+# 
+# 				s = 0,	 cout = 0
+# time =                   10,	 a = 1,	 b = 0,	 cin = 0,	
+# 
+# 				s = 1,	 cout = 0
+# time =                   20,	 a = 1,	 b = 1,	 cin = 0,	
+# 
+# 				s = 0,	 cout = 1
+# time =                   30,	 a = 1,	 b = 1,	 cin = 1,	
+# 
+# 				s = 1,	 cout = 1
+# ** Note: $stop    : D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 2/full_adder_tb.v(29)
+#    Time: 40 ns  Iteration: 0  Instance: /full_adder_tb
+# Break in Module full_adder_tb at D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 2/full_adder_tb.v line 29
+run
+restart
+run
+quit -sim
+# End time: 23:42:16 on Mar 13,2024, Elapsed time: 0:04:37
+# Errors: 0, Warnings: 1
+# Compile of full_adder_tb.v was successful with warnings.
+# Compile of full_adder_tb.v was successful with warnings.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:50:31 on Mar 13,2024
+# Loading work.full_adder_tb
+# Loading work.full_adder_st
+# Loading work.full_adder_st2
+# Loading work.full_adder_df
+# Loading work.full_adder_bh
+run
+restart
+run
+add wave -position insertpoint  \
+sim:/full_adder_tb/a \
+sim:/full_adder_tb/b \
+sim:/full_adder_tb/cin \
+sim:/full_adder_tb/s_st1 \
+sim:/full_adder_tb/s_st2 \
+sim:/full_adder_tb/s_df \
+sim:/full_adder_tb/s_bh \
+sim:/full_adder_tb/cout_st1 \
+sim:/full_adder_tb/cout_st2 \
+sim:/full_adder_tb/cout_df \
+sim:/full_adder_tb/cout_bh
+restart
+run
+restart
+run
+# time =                    0,	 a = 0,	 b = 0,	 cin = 0,	
+# 
+# 				s_st1 = 0,	 cout_st1 = 0,	 s_st2 = 0,	 cout_st2 = 0,	 
+# 
+# 				s_df = 0,	 cout_df = 0,	 s_bh = 0,	 cout_bh = 0 
+# time =                   10,	 a = 1,	 b = 0,	 cin = 0,	
+# 
+# 				s_st1 = 1,	 cout_st1 = 0,	 s_st2 = 1,	 cout_st2 = 0,	 
+# 
+# 				s_df = 1,	 cout_df = 0,	 s_bh = 1,	 cout_bh = 0 
+# time =                   20,	 a = 1,	 b = 1,	 cin = 0,	
+# 
+# 				s_st1 = 0,	 cout_st1 = 1,	 s_st2 = 0,	 cout_st2 = 1,	 
+# 
+# 				s_df = 0,	 cout_df = 1,	 s_bh = 0,	 cout_bh = 1 
+# time =                   30,	 a = 1,	 b = 1,	 cin = 1,	
+# 
+# 				s_st1 = 1,	 cout_st1 = 1,	 s_st2 = 1,	 cout_st2 = 1,	 
+# 
+# 				s_df = 1,	 cout_df = 1,	 s_bh = 1,	 cout_bh = 1 
+# ** Note: $stop    : D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 2/full_adder_tb.v(56)
+#    Time: 40 ns  Iteration: 0  Instance: /full_adder_tb
+# Break in Module full_adder_tb at D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 2/full_adder_tb.v line 56
+quit -sim
+# End time: 23:55:13 on Mar 13,2024, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 0
+# Compile of half_adder_bh.v was successful.
+# Compile of half_adder_df.v was successful.
+# Compile of half_adder_st.v was successful.
+# Compile of full_adder_st.v was successful.
+# Compile of full_adder_st2.v was successful.
+# Compile of full_adder_df.v was successful.
+# Compile of full_adder_bh.v was successful.
+# Compile of full_adder_tb.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
