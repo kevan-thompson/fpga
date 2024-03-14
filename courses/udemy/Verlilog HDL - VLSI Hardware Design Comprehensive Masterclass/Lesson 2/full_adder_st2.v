@@ -21,14 +21,14 @@ wire n1,n2,n3;
 
 half_adder_df hald_adder_df1(
 	.s(n1),
-	.cout(n2),
+	.c(n2),
 	.a(a),
 	.b(b)
 );
 
 half_adder_df hald_adder_df2(
 	.s(s),
-	.cout(n3),
+	.c(n3),
 	.a(n1),
 	.b(cin)
 );
