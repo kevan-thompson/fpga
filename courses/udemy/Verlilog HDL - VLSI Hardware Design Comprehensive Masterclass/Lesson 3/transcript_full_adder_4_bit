@@ -1,0 +1,1057 @@
+# Compile of full_adder_4_bit.v was successful.
+# Compile of full_adder_4_bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:10:21 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_tb.v(17): Port 'cout' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb/fa4_dut File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit.v
+# Error loading design
+# End time: 00:10:22 on Mar 15,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of full_adder_4_bit_tb.v was successful.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:11:20 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+run
+# time =                    0, 	 a = 0000, 	 c_in = 0000, 	 s = 0, 	 c_out = 0z
+# time =                   10, 	 a = 0001, 	 c_in = 0000, 	 s = 0, 	 c_out = 1z
+# time =                   20, 	 a = 0001, 	 c_in = 0001, 	 s = 0, 	 c_out = 0z
+# time =                   30, 	 a = 0001, 	 c_in = 0001, 	 s = 1, 	 c_out = 1z
+# time =                   40, 	 a = 0001, 	 c_in = 0001, 	 s = 0, 	 c_out = 0z
+# time =                   50, 	 a = 0001, 	 c_in = 0010, 	 s = 0, 	 c_out = 1z
+# time =                   60, 	 a = 0001, 	 c_in = 0010, 	 s = 1, 	 c_out = 0z
+# time =                   70, 	 a = 0001, 	 c_in = 0010, 	 s = 0, 	 c_out = 1z
+# time =                   80, 	 a = 0001, 	 c_in = 0011, 	 s = 0, 	 c_out = 0z
+# time =                   90, 	 a = 0001, 	 c_in = 0011, 	 s = 1, 	 c_out = 1z
+run
+# time =                  100, 	 a = 0001, 	 c_in = 0011, 	 s = 0, 	 c_out = 0z
+# time =                  110, 	 a = 0001, 	 c_in = 0100, 	 s = 0, 	 c_out = 1z
+# time =                  120, 	 a = 0001, 	 c_in = 0100, 	 s = 1, 	 c_out = 0z
+# time =                  130, 	 a = 0001, 	 c_in = 0100, 	 s = 0, 	 c_out = 1z
+# time =                  140, 	 a = 0001, 	 c_in = 0101, 	 s = 0, 	 c_out = 0z
+# time =                  150, 	 a = 0001, 	 c_in = 0101, 	 s = 1, 	 c_out = 1z
+# time =                  160, 	 a = 0001, 	 c_in = 0101, 	 s = 0, 	 c_out = 0z
+# time =                  170, 	 a = 0001, 	 c_in = 0110, 	 s = 0, 	 c_out = 1z
+# time =                  180, 	 a = 0001, 	 c_in = 0110, 	 s = 1, 	 c_out = 0z
+# time =                  190, 	 a = 0001, 	 c_in = 0110, 	 s = 0, 	 c_out = 1z
+# time =                  200, 	 a = 0001, 	 c_in = 0111, 	 s = 0, 	 c_out = 0z
+# time =                  210, 	 a = 0001, 	 c_in = 0111, 	 s = 1, 	 c_out = 1z
+# time =                  220, 	 a = 0001, 	 c_in = 0111, 	 s = 0, 	 c_out = 0z
+# time =                  230, 	 a = 0001, 	 c_in = 1000, 	 s = 0, 	 c_out = 1z
+# time =                  240, 	 a = 0001, 	 c_in = 1000, 	 s = 1, 	 c_out = 0z
+# time =                  250, 	 a = 0001, 	 c_in = 1000, 	 s = 0, 	 c_out = 1z
+# time =                  260, 	 a = 0001, 	 c_in = 1001, 	 s = 0, 	 c_out = 0z
+# time =                  270, 	 a = 0001, 	 c_in = 1001, 	 s = 1, 	 c_out = 1z
+# time =                  280, 	 a = 0001, 	 c_in = 1001, 	 s = 0, 	 c_out = 0z
+# time =                  290, 	 a = 0001, 	 c_in = 1010, 	 s = 0, 	 c_out = 1z
+# time =                  300, 	 a = 0001, 	 c_in = 1010, 	 s = 1, 	 c_out = 0z
+# time =                  310, 	 a = 0001, 	 c_in = 1010, 	 s = 0, 	 c_out = 1z
+# time =                  320, 	 a = 0001, 	 c_in = 1011, 	 s = 0, 	 c_out = 0z
+# time =                  330, 	 a = 0001, 	 c_in = 1011, 	 s = 1, 	 c_out = 1z
+# time =                  340, 	 a = 0001, 	 c_in = 1011, 	 s = 0, 	 c_out = 0z
+# time =                  350, 	 a = 0001, 	 c_in = 1100, 	 s = 0, 	 c_out = 1z
+# time =                  360, 	 a = 0001, 	 c_in = 1100, 	 s = 1, 	 c_out = 0z
+# time =                  370, 	 a = 0001, 	 c_in = 1100, 	 s = 0, 	 c_out = 1z
+# time =                  380, 	 a = 0001, 	 c_in = 1101, 	 s = 0, 	 c_out = 0z
+# time =                  390, 	 a = 0001, 	 c_in = 1101, 	 s = 1, 	 c_out = 1z
+# time =                  400, 	 a = 0001, 	 c_in = 1101, 	 s = 0, 	 c_out = 0z
+# time =                  410, 	 a = 0001, 	 c_in = 1110, 	 s = 0, 	 c_out = 1z
+# time =                  420, 	 a = 0001, 	 c_in = 1110, 	 s = 1, 	 c_out = 0z
+# time =                  430, 	 a = 0001, 	 c_in = 1110, 	 s = 0, 	 c_out = 1z
+# time =                  440, 	 a = 0001, 	 c_in = 1111, 	 s = 0, 	 c_out = 0z
+# time =                  450, 	 a = 0001, 	 c_in = 1111, 	 s = 1, 	 c_out = 1z
+# time =                  460, 	 a = 0001, 	 c_in = 1111, 	 s = 0, 	 c_out = 0z
+# time =                  470, 	 a = 0001, 	 c_in = 0000, 	 s = 0, 	 c_out = 1z
+# time =                  480, 	 a = 0001, 	 c_in = 0000, 	 s = 1, 	 c_out = 0z
+# time =                  490, 	 a = 0001, 	 c_in = 0000, 	 s = 0, 	 c_out = 1z
+# time =                  500, 	 a = 0010, 	 c_in = 0000, 	 s = 0, 	 c_out = 0z
+# time =                  510, 	 a = 0010, 	 c_in = 0001, 	 s = 0, 	 c_out = 1z
+# time =                  520, 	 a = 0010, 	 c_in = 0001, 	 s = 1, 	 c_out = 0z
+# time =                  530, 	 a = 0010, 	 c_in = 0001, 	 s = 0, 	 c_out = 1z
+# time =                  540, 	 a = 0010, 	 c_in = 0010, 	 s = 0, 	 c_out = 0z
+# time =                  550, 	 a = 0010, 	 c_in = 0010, 	 s = 1, 	 c_out = 1z
+# time =                  560, 	 a = 0010, 	 c_in = 0010, 	 s = 0, 	 c_out = 0z
+# time =                  570, 	 a = 0010, 	 c_in = 0011, 	 s = 0, 	 c_out = 1z
+# time =                  580, 	 a = 0010, 	 c_in = 0011, 	 s = 1, 	 c_out = 0z
+# time =                  590, 	 a = 0010, 	 c_in = 0011, 	 s = 0, 	 c_out = 1z
+# time =                  600, 	 a = 0010, 	 c_in = 0100, 	 s = 0, 	 c_out = 0z
+# time =                  610, 	 a = 0010, 	 c_in = 0100, 	 s = 1, 	 c_out = 1z
+# time =                  620, 	 a = 0010, 	 c_in = 0100, 	 s = 0, 	 c_out = 0z
+# time =                  630, 	 a = 0010, 	 c_in = 0101, 	 s = 0, 	 c_out = 1z
+# time =                  640, 	 a = 0010, 	 c_in = 0101, 	 s = 1, 	 c_out = 0z
+# time =                  650, 	 a = 0010, 	 c_in = 0101, 	 s = 0, 	 c_out = 1z
+# time =                  660, 	 a = 0010, 	 c_in = 0110, 	 s = 0, 	 c_out = 0z
+# time =                  670, 	 a = 0010, 	 c_in = 0110, 	 s = 1, 	 c_out = 1z
+# time =                  680, 	 a = 0010, 	 c_in = 0110, 	 s = 0, 	 c_out = 0z
+# time =                  690, 	 a = 0010, 	 c_in = 0111, 	 s = 0, 	 c_out = 1z
+# time =                  700, 	 a = 0010, 	 c_in = 0111, 	 s = 1, 	 c_out = 0z
+# time =                  710, 	 a = 0010, 	 c_in = 0111, 	 s = 0, 	 c_out = 1z
+# time =                  720, 	 a = 0010, 	 c_in = 1000, 	 s = 0, 	 c_out = 0z
+# time =                  730, 	 a = 0010, 	 c_in = 1000, 	 s = 1, 	 c_out = 1z
+# time =                  740, 	 a = 0010, 	 c_in = 1000, 	 s = 0, 	 c_out = 0z
+# time =                  750, 	 a = 0010, 	 c_in = 1001, 	 s = 0, 	 c_out = 1z
+# time =                  760, 	 a = 0010, 	 c_in = 1001, 	 s = 1, 	 c_out = 0z
+# time =                  770, 	 a = 0010, 	 c_in = 1001, 	 s = 0, 	 c_out = 1z
+# time =                  780, 	 a = 0010, 	 c_in = 1010, 	 s = 0, 	 c_out = 0z
+# time =                  790, 	 a = 0010, 	 c_in = 1010, 	 s = 1, 	 c_out = 1z
+# time =                  800, 	 a = 0010, 	 c_in = 1010, 	 s = 0, 	 c_out = 0z
+# time =                  810, 	 a = 0010, 	 c_in = 1011, 	 s = 0, 	 c_out = 1z
+# time =                  820, 	 a = 0010, 	 c_in = 1011, 	 s = 1, 	 c_out = 0z
+# time =                  830, 	 a = 0010, 	 c_in = 1011, 	 s = 0, 	 c_out = 1z
+# time =                  840, 	 a = 0010, 	 c_in = 1100, 	 s = 0, 	 c_out = 0z
+# time =                  850, 	 a = 0010, 	 c_in = 1100, 	 s = 1, 	 c_out = 1z
+# time =                  860, 	 a = 0010, 	 c_in = 1100, 	 s = 0, 	 c_out = 0z
+# time =                  870, 	 a = 0010, 	 c_in = 1101, 	 s = 0, 	 c_out = 1z
+# time =                  880, 	 a = 0010, 	 c_in = 1101, 	 s = 1, 	 c_out = 0z
+# time =                  890, 	 a = 0010, 	 c_in = 1101, 	 s = 0, 	 c_out = 1z
+# time =                  900, 	 a = 0010, 	 c_in = 1110, 	 s = 0, 	 c_out = 0z
+# time =                  910, 	 a = 0010, 	 c_in = 1110, 	 s = 1, 	 c_out = 1z
+# time =                  920, 	 a = 0010, 	 c_in = 1110, 	 s = 0, 	 c_out = 0z
+# time =                  930, 	 a = 0010, 	 c_in = 1111, 	 s = 0, 	 c_out = 1z
+# time =                  940, 	 a = 0010, 	 c_in = 1111, 	 s = 1, 	 c_out = 0z
+# time =                  950, 	 a = 0010, 	 c_in = 1111, 	 s = 0, 	 c_out = 1z
+# time =                  960, 	 a = 0010, 	 c_in = 0000, 	 s = 0, 	 c_out = 0z
+# time =                  970, 	 a = 0010, 	 c_in = 0000, 	 s = 1, 	 c_out = 1z
+# time =                  980, 	 a = 0010, 	 c_in = 0000, 	 s = 0, 	 c_out = 0z
+# time =                  990, 	 a = 0011, 	 c_in = 0000, 	 s = 0, 	 c_out = 1z
+# time =                 1000, 	 a = 0011, 	 c_in = 0001, 	 s = 0, 	 c_out = 0z
+# time =                 1010, 	 a = 0011, 	 c_in = 0001, 	 s = 1, 	 c_out = 1z
+# time =                 1020, 	 a = 0011, 	 c_in = 0001, 	 s = 0, 	 c_out = 0z
+# time =                 1030, 	 a = 0011, 	 c_in = 0010, 	 s = 0, 	 c_out = 1z
+# time =                 1040, 	 a = 0011, 	 c_in = 0010, 	 s = 1, 	 c_out = 0z
+# time =                 1050, 	 a = 0011, 	 c_in = 0010, 	 s = 0, 	 c_out = 1z
+# time =                 1060, 	 a = 0011, 	 c_in = 0011, 	 s = 0, 	 c_out = 0z
+# time =                 1070, 	 a = 0011, 	 c_in = 0011, 	 s = 1, 	 c_out = 1z
+# time =                 1080, 	 a = 0011, 	 c_in = 0011, 	 s = 0, 	 c_out = 0z
+# time =                 1090, 	 a = 0011, 	 c_in = 0100, 	 s = 0, 	 c_out = 1z
+restart
+quit -sim
+# End time: 00:12:56 on Mar 15,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# Compile of full_adder_4_bit_tb.v was successful.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:14:20 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+run
+# time =                    0, 	 a = 0000, 	 b 0000, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   10, 	 a = 0001, 	 b 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   20, 	 a = 0001, 	 b 0001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   30, 	 a = 0001, 	 b 0001, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                   40, 	 a = 0001, 	 b 0001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   50, 	 a = 0001, 	 b 0010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   60, 	 a = 0001, 	 b 0010, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                   70, 	 a = 0001, 	 b 0010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   80, 	 a = 0001, 	 b 0011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   90, 	 a = 0001, 	 b 0011, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  100, 	 a = 0001, 	 b 0011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  110, 	 a = 0001, 	 b 0100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  120, 	 a = 0001, 	 b 0100, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  130, 	 a = 0001, 	 b 0100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  140, 	 a = 0001, 	 b 0101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  150, 	 a = 0001, 	 b 0101, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  160, 	 a = 0001, 	 b 0101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  170, 	 a = 0001, 	 b 0110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  180, 	 a = 0001, 	 b 0110, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  190, 	 a = 0001, 	 b 0110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  200, 	 a = 0001, 	 b 0111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  210, 	 a = 0001, 	 b 0111, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  220, 	 a = 0001, 	 b 0111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  230, 	 a = 0001, 	 b 1000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  240, 	 a = 0001, 	 b 1000, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  250, 	 a = 0001, 	 b 1000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  260, 	 a = 0001, 	 b 1001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  270, 	 a = 0001, 	 b 1001, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  280, 	 a = 0001, 	 b 1001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  290, 	 a = 0001, 	 b 1010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  300, 	 a = 0001, 	 b 1010, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  310, 	 a = 0001, 	 b 1010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  320, 	 a = 0001, 	 b 1011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  330, 	 a = 0001, 	 b 1011, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  340, 	 a = 0001, 	 b 1011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  350, 	 a = 0001, 	 b 1100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  360, 	 a = 0001, 	 b 1100, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  370, 	 a = 0001, 	 b 1100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  380, 	 a = 0001, 	 b 1101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  390, 	 a = 0001, 	 b 1101, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  400, 	 a = 0001, 	 b 1101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  410, 	 a = 0001, 	 b 1110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  420, 	 a = 0001, 	 b 1110, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  430, 	 a = 0001, 	 b 1110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  440, 	 a = 0001, 	 b 1111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  450, 	 a = 0001, 	 b 1111, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  460, 	 a = 0001, 	 b 1111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  470, 	 a = 0001, 	 b 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  480, 	 a = 0001, 	 b 0000, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  490, 	 a = 0001, 	 b 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  500, 	 a = 0010, 	 b 0000, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  510, 	 a = 0010, 	 b 0001, 	 c_in = 0, 	 s = 1, 	 c_out = z
+quit -sim
+# End time: 00:15:51 on Mar 15,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# Compile of full_adder_4_bit_tb.v was successful.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:20:25 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+# Load canceled
+run
+# time =                    0, 	 a = 0000, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   10, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   20, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   30, 	 a = 0001, 	 b = 0001, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                   40, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   50, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   60, 	 a = 0001, 	 b = 0010, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                   70, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                   80, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                   90, 	 a = 0001, 	 b = 0011, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  100, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  110, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  120, 	 a = 0001, 	 b = 0100, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  130, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  140, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  150, 	 a = 0001, 	 b = 0101, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  160, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  170, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  180, 	 a = 0001, 	 b = 0110, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  190, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  200, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  210, 	 a = 0001, 	 b = 0111, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  220, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  230, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  240, 	 a = 0001, 	 b = 1000, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  250, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  260, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  270, 	 a = 0001, 	 b = 1001, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  280, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  290, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  300, 	 a = 0001, 	 b = 1010, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  310, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  320, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  330, 	 a = 0001, 	 b = 1011, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  340, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  350, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  360, 	 a = 0001, 	 b = 1100, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  370, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  380, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  390, 	 a = 0001, 	 b = 1101, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  400, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  410, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  420, 	 a = 0001, 	 b = 1110, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  430, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  440, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  450, 	 a = 0001, 	 b = 1111, 	 c_in = 1, 	 s = 1, 	 c_out = z
+# time =                  460, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  470, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  480, 	 a = 0001, 	 b = 0000, 	 c_in = 1, 	 s = 0, 	 c_out = z
+# time =                  490, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = z
+# time =                  500, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = z
+# time =                  510, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 1, 	 c_out = z
+quit -sim
+# End time: 00:21:42 on Mar 15,2024, Elapsed time: 0:01:17
+# Errors: 1, Warnings: 0
+# Compile of full_adder_4_bit.v was successful.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:22:00 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+restart
+run
+# time =                    0, 	 a = 0000, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                   10, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                   20, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                   30, 	 a = 0001, 	 b = 0001, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                   40, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                   50, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                   60, 	 a = 0001, 	 b = 0010, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                   70, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                   80, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                   90, 	 a = 0001, 	 b = 0011, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  100, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  110, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  120, 	 a = 0001, 	 b = 0100, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  130, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  140, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  150, 	 a = 0001, 	 b = 0101, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  160, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  170, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  180, 	 a = 0001, 	 b = 0110, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  190, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  200, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  210, 	 a = 0001, 	 b = 0111, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  220, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  230, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  240, 	 a = 0001, 	 b = 1000, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  250, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  260, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  270, 	 a = 0001, 	 b = 1001, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  280, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  290, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  300, 	 a = 0001, 	 b = 1010, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  310, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  320, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  330, 	 a = 0001, 	 b = 1011, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  340, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  350, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  360, 	 a = 0001, 	 b = 1100, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  370, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  380, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  390, 	 a = 0001, 	 b = 1101, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  400, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  410, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  420, 	 a = 0001, 	 b = 1110, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  430, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  440, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  450, 	 a = 0001, 	 b = 1111, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  460, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  470, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  480, 	 a = 0001, 	 b = 0000, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  490, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  500, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  510, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+restart
+run
+# time =                    0, 	 a = 0000, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                   10, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                   20, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                   30, 	 a = 0001, 	 b = 0001, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                   40, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                   50, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                   60, 	 a = 0001, 	 b = 0010, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                   70, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                   80, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                   90, 	 a = 0001, 	 b = 0011, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  100, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  110, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  120, 	 a = 0001, 	 b = 0100, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  130, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  140, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  150, 	 a = 0001, 	 b = 0101, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  160, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  170, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  180, 	 a = 0001, 	 b = 0110, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  190, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  200, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  210, 	 a = 0001, 	 b = 0111, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  220, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  230, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  240, 	 a = 0001, 	 b = 1000, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  250, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  260, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  270, 	 a = 0001, 	 b = 1001, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  280, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  290, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  300, 	 a = 0001, 	 b = 1010, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  310, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  320, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  330, 	 a = 0001, 	 b = 1011, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  340, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  350, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  360, 	 a = 0001, 	 b = 1100, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  370, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  380, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  390, 	 a = 0001, 	 b = 1101, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  400, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  410, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  420, 	 a = 0001, 	 b = 1110, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  430, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  440, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  450, 	 a = 0001, 	 b = 1111, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  460, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  470, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  480, 	 a = 0001, 	 b = 0000, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  490, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  500, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  510, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  520, 	 a = 0010, 	 b = 0001, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  530, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  540, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  550, 	 a = 0010, 	 b = 0010, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  560, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  570, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  580, 	 a = 0010, 	 b = 0011, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  590, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  600, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  610, 	 a = 0010, 	 b = 0100, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  620, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  630, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  640, 	 a = 0010, 	 b = 0101, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  650, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  660, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  670, 	 a = 0010, 	 b = 0110, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  680, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  690, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  700, 	 a = 0010, 	 b = 0111, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  710, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  720, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  730, 	 a = 0010, 	 b = 1000, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  740, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  750, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  760, 	 a = 0010, 	 b = 1001, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  770, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  780, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  790, 	 a = 0010, 	 b = 1010, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  800, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  810, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  820, 	 a = 0010, 	 b = 1011, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  830, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  840, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  850, 	 a = 0010, 	 b = 1100, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  860, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  870, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  880, 	 a = 0010, 	 b = 1101, 	 c_in = 1, 	 s = 0, 	 c_out = 0
+# time =                  890, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                  900, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  910, 	 a = 0010, 	 b = 1110, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                  920, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                  930, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  940, 	 a = 0010, 	 b = 1111, 	 c_in = 1, 	 s = 0, 	 c_out = 1
+# time =                  950, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 1, 	 c_out = 0
+# time =                  960, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  970, 	 a = 0010, 	 b = 0000, 	 c_in = 1, 	 s = 1, 	 c_out = 1
+# time =                  980, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0, 	 c_out = 1
+# time =                  990, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 1, 	 c_out = 1
+# time =                 1000, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+# time =                 1010, 	 a = 0011, 	 b = 0001, 	 c_in = 1, 	 s = 1, 	 c_out = 0
+# time =                 1020, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0, 	 c_out = 0
+quit -sim
+# End time: 00:24:03 on Mar 15,2024, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0
+# Compile of full_adder_4_bit.v was successful.
+# Compile of full_adder_4_bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_4_bit_tb
+# vsim -gui work.full_adder_4_bit_tb 
+# Start time: 00:24:22 on Mar 15,2024
+# Loading work.full_adder_4_bit_tb
+# Loading work.full_adder_4_bit
+run
+# time =                    0, 	 a = 0000, 	 b = 0000, 	 c_in = 0, 	 s = 0000, 	 c_out = 0
+# time =                   10, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                   20, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                   30, 	 a = 0001, 	 b = 0001, 	 c_in = 1, 	 s = 0011, 	 c_out = 0
+# time =                   40, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                   50, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                   60, 	 a = 0001, 	 b = 0010, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                   70, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                   80, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                   90, 	 a = 0001, 	 b = 0011, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                  100, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  110, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  120, 	 a = 0001, 	 b = 0100, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                  130, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  140, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  150, 	 a = 0001, 	 b = 0101, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                  160, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  170, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  180, 	 a = 0001, 	 b = 0110, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                  190, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  200, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  210, 	 a = 0001, 	 b = 0111, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                  220, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  230, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  240, 	 a = 0001, 	 b = 1000, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                  250, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  260, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  270, 	 a = 0001, 	 b = 1001, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                  280, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  290, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  300, 	 a = 0001, 	 b = 1010, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                  310, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  320, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  330, 	 a = 0001, 	 b = 1011, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                  340, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  350, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  360, 	 a = 0001, 	 b = 1100, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                  370, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  380, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  390, 	 a = 0001, 	 b = 1101, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                  400, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  410, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  420, 	 a = 0001, 	 b = 1110, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                  430, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  440, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  450, 	 a = 0001, 	 b = 1111, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                  460, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  470, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                  480, 	 a = 0001, 	 b = 0000, 	 c_in = 1, 	 s = 0010, 	 c_out = 0
+# time =                  490, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                  500, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  510, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                  520, 	 a = 0010, 	 b = 0001, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                  530, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                  540, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  550, 	 a = 0010, 	 b = 0010, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                  560, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  570, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  580, 	 a = 0010, 	 b = 0011, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                  590, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  600, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  610, 	 a = 0010, 	 b = 0100, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                  620, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  630, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  640, 	 a = 0010, 	 b = 0101, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                  650, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  660, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  670, 	 a = 0010, 	 b = 0110, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                  680, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  690, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  700, 	 a = 0010, 	 b = 0111, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                  710, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  720, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  730, 	 a = 0010, 	 b = 1000, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                  740, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  750, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  760, 	 a = 0010, 	 b = 1001, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                  770, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  780, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  790, 	 a = 0010, 	 b = 1010, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                  800, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  810, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  820, 	 a = 0010, 	 b = 1011, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                  830, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  840, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  850, 	 a = 0010, 	 b = 1100, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                  860, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  870, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  880, 	 a = 0010, 	 b = 1101, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                  890, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  900, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  910, 	 a = 0010, 	 b = 1110, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                  920, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  930, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                  940, 	 a = 0010, 	 b = 1111, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                  950, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                  960, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  970, 	 a = 0010, 	 b = 0000, 	 c_in = 1, 	 s = 0011, 	 c_out = 0
+# time =                  980, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  990, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1000, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1010, 	 a = 0011, 	 b = 0001, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                 1020, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1030, 	 a = 0011, 	 b = 0010, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1040, 	 a = 0011, 	 b = 0010, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                 1050, 	 a = 0011, 	 b = 0010, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1060, 	 a = 0011, 	 b = 0011, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1070, 	 a = 0011, 	 b = 0011, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 1080, 	 a = 0011, 	 b = 0011, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1090, 	 a = 0011, 	 b = 0100, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1100, 	 a = 0011, 	 b = 0100, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 1110, 	 a = 0011, 	 b = 0100, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1120, 	 a = 0011, 	 b = 0101, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1130, 	 a = 0011, 	 b = 0101, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 1140, 	 a = 0011, 	 b = 0101, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1150, 	 a = 0011, 	 b = 0110, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1160, 	 a = 0011, 	 b = 0110, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 1170, 	 a = 0011, 	 b = 0110, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1180, 	 a = 0011, 	 b = 0111, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1190, 	 a = 0011, 	 b = 0111, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 1200, 	 a = 0011, 	 b = 0111, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1210, 	 a = 0011, 	 b = 1000, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1220, 	 a = 0011, 	 b = 1000, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 1230, 	 a = 0011, 	 b = 1000, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1240, 	 a = 0011, 	 b = 1001, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1250, 	 a = 0011, 	 b = 1001, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 1260, 	 a = 0011, 	 b = 1001, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1270, 	 a = 0011, 	 b = 1010, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1280, 	 a = 0011, 	 b = 1010, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 1290, 	 a = 0011, 	 b = 1010, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1300, 	 a = 0011, 	 b = 1011, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1310, 	 a = 0011, 	 b = 1011, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 1320, 	 a = 0011, 	 b = 1011, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1330, 	 a = 0011, 	 b = 1100, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1340, 	 a = 0011, 	 b = 1100, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 1350, 	 a = 0011, 	 b = 1100, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1360, 	 a = 0011, 	 b = 1101, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1370, 	 a = 0011, 	 b = 1101, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 1380, 	 a = 0011, 	 b = 1101, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1390, 	 a = 0011, 	 b = 1110, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1400, 	 a = 0011, 	 b = 1110, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 1410, 	 a = 0011, 	 b = 1110, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1420, 	 a = 0011, 	 b = 1111, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1430, 	 a = 0011, 	 b = 1111, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 1440, 	 a = 0011, 	 b = 1111, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1450, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1460, 	 a = 0011, 	 b = 0000, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                 1470, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1480, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1490, 	 a = 0100, 	 b = 0001, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1500, 	 a = 0100, 	 b = 0001, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                 1510, 	 a = 0100, 	 b = 0001, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1520, 	 a = 0100, 	 b = 0010, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1530, 	 a = 0100, 	 b = 0010, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 1540, 	 a = 0100, 	 b = 0010, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1550, 	 a = 0100, 	 b = 0011, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1560, 	 a = 0100, 	 b = 0011, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 1570, 	 a = 0100, 	 b = 0011, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1580, 	 a = 0100, 	 b = 0100, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1590, 	 a = 0100, 	 b = 0100, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 1600, 	 a = 0100, 	 b = 0100, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1610, 	 a = 0100, 	 b = 0101, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1620, 	 a = 0100, 	 b = 0101, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 1630, 	 a = 0100, 	 b = 0101, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1640, 	 a = 0100, 	 b = 0110, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1650, 	 a = 0100, 	 b = 0110, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 1660, 	 a = 0100, 	 b = 0110, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1670, 	 a = 0100, 	 b = 0111, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1680, 	 a = 0100, 	 b = 0111, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 1690, 	 a = 0100, 	 b = 0111, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1700, 	 a = 0100, 	 b = 1000, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1710, 	 a = 0100, 	 b = 1000, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 1720, 	 a = 0100, 	 b = 1000, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1730, 	 a = 0100, 	 b = 1001, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1740, 	 a = 0100, 	 b = 1001, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 1750, 	 a = 0100, 	 b = 1001, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1760, 	 a = 0100, 	 b = 1010, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1770, 	 a = 0100, 	 b = 1010, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 1780, 	 a = 0100, 	 b = 1010, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1790, 	 a = 0100, 	 b = 1011, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1800, 	 a = 0100, 	 b = 1011, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 1810, 	 a = 0100, 	 b = 1011, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1820, 	 a = 0100, 	 b = 1100, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1830, 	 a = 0100, 	 b = 1100, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 1840, 	 a = 0100, 	 b = 1100, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1850, 	 a = 0100, 	 b = 1101, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1860, 	 a = 0100, 	 b = 1101, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 1870, 	 a = 0100, 	 b = 1101, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1880, 	 a = 0100, 	 b = 1110, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1890, 	 a = 0100, 	 b = 1110, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 1900, 	 a = 0100, 	 b = 1110, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1910, 	 a = 0100, 	 b = 1111, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 1920, 	 a = 0100, 	 b = 1111, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 1930, 	 a = 0100, 	 b = 1111, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 1940, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1950, 	 a = 0100, 	 b = 0000, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                 1960, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1970, 	 a = 0101, 	 b = 0000, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1980, 	 a = 0101, 	 b = 0001, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1990, 	 a = 0101, 	 b = 0001, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 2000, 	 a = 0101, 	 b = 0001, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 2010, 	 a = 0101, 	 b = 0010, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2020, 	 a = 0101, 	 b = 0010, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 2030, 	 a = 0101, 	 b = 0010, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2040, 	 a = 0101, 	 b = 0011, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+restart
+run
+# time =                    0, 	 a = 0000, 	 b = 0000, 	 c_in = 0, 	 s = 0000, 	 c_out = 0
+# time =                   10, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                   20, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                   30, 	 a = 0001, 	 b = 0001, 	 c_in = 1, 	 s = 0011, 	 c_out = 0
+# time =                   40, 	 a = 0001, 	 b = 0001, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                   50, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                   60, 	 a = 0001, 	 b = 0010, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                   70, 	 a = 0001, 	 b = 0010, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                   80, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                   90, 	 a = 0001, 	 b = 0011, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                  100, 	 a = 0001, 	 b = 0011, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  110, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  120, 	 a = 0001, 	 b = 0100, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                  130, 	 a = 0001, 	 b = 0100, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  140, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  150, 	 a = 0001, 	 b = 0101, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                  160, 	 a = 0001, 	 b = 0101, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  170, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  180, 	 a = 0001, 	 b = 0110, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                  190, 	 a = 0001, 	 b = 0110, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  200, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  210, 	 a = 0001, 	 b = 0111, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                  220, 	 a = 0001, 	 b = 0111, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  230, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  240, 	 a = 0001, 	 b = 1000, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                  250, 	 a = 0001, 	 b = 1000, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  260, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  270, 	 a = 0001, 	 b = 1001, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                  280, 	 a = 0001, 	 b = 1001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  290, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  300, 	 a = 0001, 	 b = 1010, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                  310, 	 a = 0001, 	 b = 1010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  320, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  330, 	 a = 0001, 	 b = 1011, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                  340, 	 a = 0001, 	 b = 1011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  350, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  360, 	 a = 0001, 	 b = 1100, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                  370, 	 a = 0001, 	 b = 1100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  380, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  390, 	 a = 0001, 	 b = 1101, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                  400, 	 a = 0001, 	 b = 1101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  410, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  420, 	 a = 0001, 	 b = 1110, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                  430, 	 a = 0001, 	 b = 1110, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  440, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  450, 	 a = 0001, 	 b = 1111, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                  460, 	 a = 0001, 	 b = 1111, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  470, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                  480, 	 a = 0001, 	 b = 0000, 	 c_in = 1, 	 s = 0010, 	 c_out = 0
+# time =                  490, 	 a = 0001, 	 b = 0000, 	 c_in = 0, 	 s = 0001, 	 c_out = 0
+# time =                  500, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  510, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                  520, 	 a = 0010, 	 b = 0001, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                  530, 	 a = 0010, 	 b = 0001, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                  540, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  550, 	 a = 0010, 	 b = 0010, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                  560, 	 a = 0010, 	 b = 0010, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                  570, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  580, 	 a = 0010, 	 b = 0011, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                  590, 	 a = 0010, 	 b = 0011, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                  600, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  610, 	 a = 0010, 	 b = 0100, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                  620, 	 a = 0010, 	 b = 0100, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                  630, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  640, 	 a = 0010, 	 b = 0101, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                  650, 	 a = 0010, 	 b = 0101, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                  660, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  670, 	 a = 0010, 	 b = 0110, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                  680, 	 a = 0010, 	 b = 0110, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                  690, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  700, 	 a = 0010, 	 b = 0111, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                  710, 	 a = 0010, 	 b = 0111, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                  720, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  730, 	 a = 0010, 	 b = 1000, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                  740, 	 a = 0010, 	 b = 1000, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                  750, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  760, 	 a = 0010, 	 b = 1001, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                  770, 	 a = 0010, 	 b = 1001, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                  780, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  790, 	 a = 0010, 	 b = 1010, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                  800, 	 a = 0010, 	 b = 1010, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                  810, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  820, 	 a = 0010, 	 b = 1011, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                  830, 	 a = 0010, 	 b = 1011, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                  840, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  850, 	 a = 0010, 	 b = 1100, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                  860, 	 a = 0010, 	 b = 1100, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                  870, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  880, 	 a = 0010, 	 b = 1101, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                  890, 	 a = 0010, 	 b = 1101, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                  900, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  910, 	 a = 0010, 	 b = 1110, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                  920, 	 a = 0010, 	 b = 1110, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                  930, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                  940, 	 a = 0010, 	 b = 1111, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                  950, 	 a = 0010, 	 b = 1111, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                  960, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  970, 	 a = 0010, 	 b = 0000, 	 c_in = 1, 	 s = 0011, 	 c_out = 0
+# time =                  980, 	 a = 0010, 	 b = 0000, 	 c_in = 0, 	 s = 0010, 	 c_out = 0
+# time =                  990, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1000, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1010, 	 a = 0011, 	 b = 0001, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                 1020, 	 a = 0011, 	 b = 0001, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1030, 	 a = 0011, 	 b = 0010, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1040, 	 a = 0011, 	 b = 0010, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                 1050, 	 a = 0011, 	 b = 0010, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1060, 	 a = 0011, 	 b = 0011, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1070, 	 a = 0011, 	 b = 0011, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 1080, 	 a = 0011, 	 b = 0011, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1090, 	 a = 0011, 	 b = 0100, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1100, 	 a = 0011, 	 b = 0100, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 1110, 	 a = 0011, 	 b = 0100, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1120, 	 a = 0011, 	 b = 0101, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1130, 	 a = 0011, 	 b = 0101, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 1140, 	 a = 0011, 	 b = 0101, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1150, 	 a = 0011, 	 b = 0110, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1160, 	 a = 0011, 	 b = 0110, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 1170, 	 a = 0011, 	 b = 0110, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1180, 	 a = 0011, 	 b = 0111, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1190, 	 a = 0011, 	 b = 0111, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 1200, 	 a = 0011, 	 b = 0111, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1210, 	 a = 0011, 	 b = 1000, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1220, 	 a = 0011, 	 b = 1000, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 1230, 	 a = 0011, 	 b = 1000, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1240, 	 a = 0011, 	 b = 1001, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1250, 	 a = 0011, 	 b = 1001, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 1260, 	 a = 0011, 	 b = 1001, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1270, 	 a = 0011, 	 b = 1010, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1280, 	 a = 0011, 	 b = 1010, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 1290, 	 a = 0011, 	 b = 1010, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1300, 	 a = 0011, 	 b = 1011, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1310, 	 a = 0011, 	 b = 1011, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 1320, 	 a = 0011, 	 b = 1011, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1330, 	 a = 0011, 	 b = 1100, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1340, 	 a = 0011, 	 b = 1100, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 1350, 	 a = 0011, 	 b = 1100, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1360, 	 a = 0011, 	 b = 1101, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1370, 	 a = 0011, 	 b = 1101, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 1380, 	 a = 0011, 	 b = 1101, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1390, 	 a = 0011, 	 b = 1110, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1400, 	 a = 0011, 	 b = 1110, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 1410, 	 a = 0011, 	 b = 1110, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1420, 	 a = 0011, 	 b = 1111, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1430, 	 a = 0011, 	 b = 1111, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 1440, 	 a = 0011, 	 b = 1111, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1450, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1460, 	 a = 0011, 	 b = 0000, 	 c_in = 1, 	 s = 0100, 	 c_out = 0
+# time =                 1470, 	 a = 0011, 	 b = 0000, 	 c_in = 0, 	 s = 0011, 	 c_out = 0
+# time =                 1480, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1490, 	 a = 0100, 	 b = 0001, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1500, 	 a = 0100, 	 b = 0001, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                 1510, 	 a = 0100, 	 b = 0001, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1520, 	 a = 0100, 	 b = 0010, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1530, 	 a = 0100, 	 b = 0010, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 1540, 	 a = 0100, 	 b = 0010, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1550, 	 a = 0100, 	 b = 0011, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1560, 	 a = 0100, 	 b = 0011, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 1570, 	 a = 0100, 	 b = 0011, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 1580, 	 a = 0100, 	 b = 0100, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1590, 	 a = 0100, 	 b = 0100, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 1600, 	 a = 0100, 	 b = 0100, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 1610, 	 a = 0100, 	 b = 0101, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1620, 	 a = 0100, 	 b = 0101, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 1630, 	 a = 0100, 	 b = 0101, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 1640, 	 a = 0100, 	 b = 0110, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1650, 	 a = 0100, 	 b = 0110, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 1660, 	 a = 0100, 	 b = 0110, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 1670, 	 a = 0100, 	 b = 0111, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1680, 	 a = 0100, 	 b = 0111, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 1690, 	 a = 0100, 	 b = 0111, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 1700, 	 a = 0100, 	 b = 1000, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1710, 	 a = 0100, 	 b = 1000, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 1720, 	 a = 0100, 	 b = 1000, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 1730, 	 a = 0100, 	 b = 1001, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1740, 	 a = 0100, 	 b = 1001, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 1750, 	 a = 0100, 	 b = 1001, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 1760, 	 a = 0100, 	 b = 1010, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1770, 	 a = 0100, 	 b = 1010, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 1780, 	 a = 0100, 	 b = 1010, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 1790, 	 a = 0100, 	 b = 1011, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1800, 	 a = 0100, 	 b = 1011, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 1810, 	 a = 0100, 	 b = 1011, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 1820, 	 a = 0100, 	 b = 1100, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1830, 	 a = 0100, 	 b = 1100, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 1840, 	 a = 0100, 	 b = 1100, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 1850, 	 a = 0100, 	 b = 1101, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1860, 	 a = 0100, 	 b = 1101, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 1870, 	 a = 0100, 	 b = 1101, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 1880, 	 a = 0100, 	 b = 1110, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1890, 	 a = 0100, 	 b = 1110, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 1900, 	 a = 0100, 	 b = 1110, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 1910, 	 a = 0100, 	 b = 1111, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 1920, 	 a = 0100, 	 b = 1111, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 1930, 	 a = 0100, 	 b = 1111, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 1940, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1950, 	 a = 0100, 	 b = 0000, 	 c_in = 1, 	 s = 0101, 	 c_out = 0
+# time =                 1960, 	 a = 0100, 	 b = 0000, 	 c_in = 0, 	 s = 0100, 	 c_out = 0
+# time =                 1970, 	 a = 0101, 	 b = 0000, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 1980, 	 a = 0101, 	 b = 0001, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 1990, 	 a = 0101, 	 b = 0001, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 2000, 	 a = 0101, 	 b = 0001, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 2010, 	 a = 0101, 	 b = 0010, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2020, 	 a = 0101, 	 b = 0010, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 2030, 	 a = 0101, 	 b = 0010, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2040, 	 a = 0101, 	 b = 0011, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2050, 	 a = 0101, 	 b = 0011, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 2060, 	 a = 0101, 	 b = 0011, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2070, 	 a = 0101, 	 b = 0100, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 2080, 	 a = 0101, 	 b = 0100, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 2090, 	 a = 0101, 	 b = 0100, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 2100, 	 a = 0101, 	 b = 0101, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 2110, 	 a = 0101, 	 b = 0101, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 2120, 	 a = 0101, 	 b = 0101, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 2130, 	 a = 0101, 	 b = 0110, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 2140, 	 a = 0101, 	 b = 0110, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 2150, 	 a = 0101, 	 b = 0110, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 2160, 	 a = 0101, 	 b = 0111, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 2170, 	 a = 0101, 	 b = 0111, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 2180, 	 a = 0101, 	 b = 0111, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 2190, 	 a = 0101, 	 b = 1000, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 2200, 	 a = 0101, 	 b = 1000, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 2210, 	 a = 0101, 	 b = 1000, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 2220, 	 a = 0101, 	 b = 1001, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 2230, 	 a = 0101, 	 b = 1001, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 2240, 	 a = 0101, 	 b = 1001, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 2250, 	 a = 0101, 	 b = 1010, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 2260, 	 a = 0101, 	 b = 1010, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 2270, 	 a = 0101, 	 b = 1010, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 2280, 	 a = 0101, 	 b = 1011, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 2290, 	 a = 0101, 	 b = 1011, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 2300, 	 a = 0101, 	 b = 1011, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 2310, 	 a = 0101, 	 b = 1100, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 2320, 	 a = 0101, 	 b = 1100, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 2330, 	 a = 0101, 	 b = 1100, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 2340, 	 a = 0101, 	 b = 1101, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 2350, 	 a = 0101, 	 b = 1101, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 2360, 	 a = 0101, 	 b = 1101, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 2370, 	 a = 0101, 	 b = 1110, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 2380, 	 a = 0101, 	 b = 1110, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 2390, 	 a = 0101, 	 b = 1110, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 2400, 	 a = 0101, 	 b = 1111, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 2410, 	 a = 0101, 	 b = 1111, 	 c_in = 1, 	 s = 0101, 	 c_out = 1
+# time =                 2420, 	 a = 0101, 	 b = 1111, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 2430, 	 a = 0101, 	 b = 0000, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 2440, 	 a = 0101, 	 b = 0000, 	 c_in = 1, 	 s = 0110, 	 c_out = 0
+# time =                 2450, 	 a = 0101, 	 b = 0000, 	 c_in = 0, 	 s = 0101, 	 c_out = 0
+# time =                 2460, 	 a = 0110, 	 b = 0000, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 2470, 	 a = 0110, 	 b = 0001, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2480, 	 a = 0110, 	 b = 0001, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 2490, 	 a = 0110, 	 b = 0001, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2500, 	 a = 0110, 	 b = 0010, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2510, 	 a = 0110, 	 b = 0010, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 2520, 	 a = 0110, 	 b = 0010, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2530, 	 a = 0110, 	 b = 0011, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 2540, 	 a = 0110, 	 b = 0011, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 2550, 	 a = 0110, 	 b = 0011, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 2560, 	 a = 0110, 	 b = 0100, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 2570, 	 a = 0110, 	 b = 0100, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 2580, 	 a = 0110, 	 b = 0100, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 2590, 	 a = 0110, 	 b = 0101, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 2600, 	 a = 0110, 	 b = 0101, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 2610, 	 a = 0110, 	 b = 0101, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 2620, 	 a = 0110, 	 b = 0110, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 2630, 	 a = 0110, 	 b = 0110, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 2640, 	 a = 0110, 	 b = 0110, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 2650, 	 a = 0110, 	 b = 0111, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 2660, 	 a = 0110, 	 b = 0111, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 2670, 	 a = 0110, 	 b = 0111, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 2680, 	 a = 0110, 	 b = 1000, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 2690, 	 a = 0110, 	 b = 1000, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 2700, 	 a = 0110, 	 b = 1000, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 2710, 	 a = 0110, 	 b = 1001, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 2720, 	 a = 0110, 	 b = 1001, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 2730, 	 a = 0110, 	 b = 1001, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 2740, 	 a = 0110, 	 b = 1010, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 2750, 	 a = 0110, 	 b = 1010, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 2760, 	 a = 0110, 	 b = 1010, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 2770, 	 a = 0110, 	 b = 1011, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 2780, 	 a = 0110, 	 b = 1011, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 2790, 	 a = 0110, 	 b = 1011, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 2800, 	 a = 0110, 	 b = 1100, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 2810, 	 a = 0110, 	 b = 1100, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 2820, 	 a = 0110, 	 b = 1100, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 2830, 	 a = 0110, 	 b = 1101, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 2840, 	 a = 0110, 	 b = 1101, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 2850, 	 a = 0110, 	 b = 1101, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 2860, 	 a = 0110, 	 b = 1110, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 2870, 	 a = 0110, 	 b = 1110, 	 c_in = 1, 	 s = 0101, 	 c_out = 1
+# time =                 2880, 	 a = 0110, 	 b = 1110, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 2890, 	 a = 0110, 	 b = 1111, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 2900, 	 a = 0110, 	 b = 1111, 	 c_in = 1, 	 s = 0110, 	 c_out = 1
+# time =                 2910, 	 a = 0110, 	 b = 1111, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 2920, 	 a = 0110, 	 b = 0000, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 2930, 	 a = 0110, 	 b = 0000, 	 c_in = 1, 	 s = 0111, 	 c_out = 0
+# time =                 2940, 	 a = 0110, 	 b = 0000, 	 c_in = 0, 	 s = 0110, 	 c_out = 0
+# time =                 2950, 	 a = 0111, 	 b = 0000, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 2960, 	 a = 0111, 	 b = 0001, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2970, 	 a = 0111, 	 b = 0001, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 2980, 	 a = 0111, 	 b = 0001, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 2990, 	 a = 0111, 	 b = 0010, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 3000, 	 a = 0111, 	 b = 0010, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 3010, 	 a = 0111, 	 b = 0010, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 3020, 	 a = 0111, 	 b = 0011, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3030, 	 a = 0111, 	 b = 0011, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 3040, 	 a = 0111, 	 b = 0011, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3050, 	 a = 0111, 	 b = 0100, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 3060, 	 a = 0111, 	 b = 0100, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 3070, 	 a = 0111, 	 b = 0100, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 3080, 	 a = 0111, 	 b = 0101, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 3090, 	 a = 0111, 	 b = 0101, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 3100, 	 a = 0111, 	 b = 0101, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 3110, 	 a = 0111, 	 b = 0110, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 3120, 	 a = 0111, 	 b = 0110, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 3130, 	 a = 0111, 	 b = 0110, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 3140, 	 a = 0111, 	 b = 0111, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 3150, 	 a = 0111, 	 b = 0111, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 3160, 	 a = 0111, 	 b = 0111, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 3170, 	 a = 0111, 	 b = 1000, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 3180, 	 a = 0111, 	 b = 1000, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 3190, 	 a = 0111, 	 b = 1000, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 3200, 	 a = 0111, 	 b = 1001, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 3210, 	 a = 0111, 	 b = 1001, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 3220, 	 a = 0111, 	 b = 1001, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 3230, 	 a = 0111, 	 b = 1010, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 3240, 	 a = 0111, 	 b = 1010, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 3250, 	 a = 0111, 	 b = 1010, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 3260, 	 a = 0111, 	 b = 1011, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 3270, 	 a = 0111, 	 b = 1011, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 3280, 	 a = 0111, 	 b = 1011, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 3290, 	 a = 0111, 	 b = 1100, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 3300, 	 a = 0111, 	 b = 1100, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 3310, 	 a = 0111, 	 b = 1100, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 3320, 	 a = 0111, 	 b = 1101, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 3330, 	 a = 0111, 	 b = 1101, 	 c_in = 1, 	 s = 0101, 	 c_out = 1
+# time =                 3340, 	 a = 0111, 	 b = 1101, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 3350, 	 a = 0111, 	 b = 1110, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 3360, 	 a = 0111, 	 b = 1110, 	 c_in = 1, 	 s = 0110, 	 c_out = 1
+# time =                 3370, 	 a = 0111, 	 b = 1110, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 3380, 	 a = 0111, 	 b = 1111, 	 c_in = 0, 	 s = 0110, 	 c_out = 1
+# time =                 3390, 	 a = 0111, 	 b = 1111, 	 c_in = 1, 	 s = 0111, 	 c_out = 1
+# time =                 3400, 	 a = 0111, 	 b = 1111, 	 c_in = 0, 	 s = 0110, 	 c_out = 1
+# time =                 3410, 	 a = 0111, 	 b = 0000, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 3420, 	 a = 0111, 	 b = 0000, 	 c_in = 1, 	 s = 1000, 	 c_out = 0
+# time =                 3430, 	 a = 0111, 	 b = 0000, 	 c_in = 0, 	 s = 0111, 	 c_out = 0
+# time =                 3440, 	 a = 1000, 	 b = 0000, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 3450, 	 a = 1000, 	 b = 0001, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 3460, 	 a = 1000, 	 b = 0001, 	 c_in = 1, 	 s = 1010, 	 c_out = 0
+# time =                 3470, 	 a = 1000, 	 b = 0001, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 3480, 	 a = 1000, 	 b = 0010, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3490, 	 a = 1000, 	 b = 0010, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 3500, 	 a = 1000, 	 b = 0010, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3510, 	 a = 1000, 	 b = 0011, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 3520, 	 a = 1000, 	 b = 0011, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 3530, 	 a = 1000, 	 b = 0011, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 3540, 	 a = 1000, 	 b = 0100, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 3550, 	 a = 1000, 	 b = 0100, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 3560, 	 a = 1000, 	 b = 0100, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 3570, 	 a = 1000, 	 b = 0101, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 3580, 	 a = 1000, 	 b = 0101, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 3590, 	 a = 1000, 	 b = 0101, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 3600, 	 a = 1000, 	 b = 0110, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 3610, 	 a = 1000, 	 b = 0110, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 3620, 	 a = 1000, 	 b = 0110, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 3630, 	 a = 1000, 	 b = 0111, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 3640, 	 a = 1000, 	 b = 0111, 	 c_in = 1, 	 s = 0000, 	 c_out = 1
+# time =                 3650, 	 a = 1000, 	 b = 0111, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+# time =                 3660, 	 a = 1000, 	 b = 1000, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 3670, 	 a = 1000, 	 b = 1000, 	 c_in = 1, 	 s = 0001, 	 c_out = 1
+# time =                 3680, 	 a = 1000, 	 b = 1000, 	 c_in = 0, 	 s = 0000, 	 c_out = 1
+# time =                 3690, 	 a = 1000, 	 b = 1001, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 3700, 	 a = 1000, 	 b = 1001, 	 c_in = 1, 	 s = 0010, 	 c_out = 1
+# time =                 3710, 	 a = 1000, 	 b = 1001, 	 c_in = 0, 	 s = 0001, 	 c_out = 1
+# time =                 3720, 	 a = 1000, 	 b = 1010, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 3730, 	 a = 1000, 	 b = 1010, 	 c_in = 1, 	 s = 0011, 	 c_out = 1
+# time =                 3740, 	 a = 1000, 	 b = 1010, 	 c_in = 0, 	 s = 0010, 	 c_out = 1
+# time =                 3750, 	 a = 1000, 	 b = 1011, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 3760, 	 a = 1000, 	 b = 1011, 	 c_in = 1, 	 s = 0100, 	 c_out = 1
+# time =                 3770, 	 a = 1000, 	 b = 1011, 	 c_in = 0, 	 s = 0011, 	 c_out = 1
+# time =                 3780, 	 a = 1000, 	 b = 1100, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 3790, 	 a = 1000, 	 b = 1100, 	 c_in = 1, 	 s = 0101, 	 c_out = 1
+# time =                 3800, 	 a = 1000, 	 b = 1100, 	 c_in = 0, 	 s = 0100, 	 c_out = 1
+# time =                 3810, 	 a = 1000, 	 b = 1101, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 3820, 	 a = 1000, 	 b = 1101, 	 c_in = 1, 	 s = 0110, 	 c_out = 1
+# time =                 3830, 	 a = 1000, 	 b = 1101, 	 c_in = 0, 	 s = 0101, 	 c_out = 1
+# time =                 3840, 	 a = 1000, 	 b = 1110, 	 c_in = 0, 	 s = 0110, 	 c_out = 1
+# time =                 3850, 	 a = 1000, 	 b = 1110, 	 c_in = 1, 	 s = 0111, 	 c_out = 1
+# time =                 3860, 	 a = 1000, 	 b = 1110, 	 c_in = 0, 	 s = 0110, 	 c_out = 1
+# time =                 3870, 	 a = 1000, 	 b = 1111, 	 c_in = 0, 	 s = 0111, 	 c_out = 1
+# time =                 3880, 	 a = 1000, 	 b = 1111, 	 c_in = 1, 	 s = 1000, 	 c_out = 1
+# time =                 3890, 	 a = 1000, 	 b = 1111, 	 c_in = 0, 	 s = 0111, 	 c_out = 1
+# time =                 3900, 	 a = 1000, 	 b = 0000, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 3910, 	 a = 1000, 	 b = 0000, 	 c_in = 1, 	 s = 1001, 	 c_out = 0
+# time =                 3920, 	 a = 1000, 	 b = 0000, 	 c_in = 0, 	 s = 1000, 	 c_out = 0
+# time =                 3930, 	 a = 1001, 	 b = 0000, 	 c_in = 0, 	 s = 1001, 	 c_out = 0
+# time =                 3940, 	 a = 1001, 	 b = 0001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3950, 	 a = 1001, 	 b = 0001, 	 c_in = 1, 	 s = 1011, 	 c_out = 0
+# time =                 3960, 	 a = 1001, 	 b = 0001, 	 c_in = 0, 	 s = 1010, 	 c_out = 0
+# time =                 3970, 	 a = 1001, 	 b = 0010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 3980, 	 a = 1001, 	 b = 0010, 	 c_in = 1, 	 s = 1100, 	 c_out = 0
+# time =                 3990, 	 a = 1001, 	 b = 0010, 	 c_in = 0, 	 s = 1011, 	 c_out = 0
+# time =                 4000, 	 a = 1001, 	 b = 0011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 4010, 	 a = 1001, 	 b = 0011, 	 c_in = 1, 	 s = 1101, 	 c_out = 0
+# time =                 4020, 	 a = 1001, 	 b = 0011, 	 c_in = 0, 	 s = 1100, 	 c_out = 0
+# time =                 4030, 	 a = 1001, 	 b = 0100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 4040, 	 a = 1001, 	 b = 0100, 	 c_in = 1, 	 s = 1110, 	 c_out = 0
+# time =                 4050, 	 a = 1001, 	 b = 0100, 	 c_in = 0, 	 s = 1101, 	 c_out = 0
+# time =                 4060, 	 a = 1001, 	 b = 0101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 4070, 	 a = 1001, 	 b = 0101, 	 c_in = 1, 	 s = 1111, 	 c_out = 0
+# time =                 4080, 	 a = 1001, 	 b = 0101, 	 c_in = 0, 	 s = 1110, 	 c_out = 0
+# time =                 4090, 	 a = 1001, 	 b = 0110, 	 c_in = 0, 	 s = 1111, 	 c_out = 0
+quit -sim
+# End time: 00:25:58 on Mar 15,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
