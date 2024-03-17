@@ -1,0 +1,58 @@
+# Compile of full_adder_4_bit.v failed with 1 errors.
+vlib work
+# Compile of full_adder_4_bit.v was successful.
+# Compile of full_adder_4_bit.v was successful.
+# Compile of full_adder_4_bit_tb.v was successful.
+# Compile of full_adder_4_bit_st.v was successful.
+# Compile of full_adder_df.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of full_adder_4_bit_tb2.v failed with 2 errors.
+# Compile of full_adder_4_bit_tb2.v was successful.
+# Load canceled
+# Compile of full_adder_4_bit.v was successful.
+# Compile of full_adder_4_bit_tb.v was successful.
+# Compile of full_adder_4_bit_st.v was successful.
+# Compile of full_adder_df.v was successful.
+# Compile of full_adder_4_bit_tb2.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of full_adder_4_bit_tb2.v was successful.
+vsim -gui work.full_adder_4_bit_tb2
+# vsim -gui work.full_adder_4_bit_tb2 
+# Start time: 17:01:32 on Mar 16,2024
+# Loading work.full_adder_4_bit_tb2
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_4_bit_st
+# Loading work.full_adder_df
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(19): Port 'c_out' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_0 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(19): Port 'c_in' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_0 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(26): Port 'c_out' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_1 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(26): Port 'c_in' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_1 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(33): Port 'c_out' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_2 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(33): Port 'c_in' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_2 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(40): Port 'c_out' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_3 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# ** Error: (vsim-3063) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_4_bit_st.v(40): Port 'c_in' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_4_bit_tb2/fa4_st_dut/fa_3 File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/full_adder_df.v
+# Error loading design
+# End time: 17:01:33 on Mar 16,2024, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+# Compile of full_adder_df.v was successful.
+vsim -gui work.full_adder_4_bit_tb2
+# vsim -gui work.full_adder_4_bit_tb2 
+# Start time: 17:03:52 on Mar 16,2024
+# Loading work.full_adder_4_bit_tb2
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_4_bit_st
+# Loading work.full_adder_df
+restart
+run
+# time =                    0, 	 comparison = 1 
+# End time: 17:04:34 on Mar 16,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
