@@ -1,0 +1,102 @@
+# Compile of mux_4_1_tb.v failed with 1 errors.
+vlib work
+# Compile of mux_4_1_tb.v failed with 1 errors.
+# Compile of mux_4_1_tb.v failed with 1 errors.
+# Compile of mux_4_1_tb.v was successful.
+vsim -gui work.mux_4_1_tb
+# vsim -gui work.mux_4_1_tb 
+# Start time: 19:59:55 on Mar 19,2024
+# Loading work.mux_4_1_tb
+# ** Error: (vsim-3033) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v(22): Instantiation of 'mux_4_1_bh' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_4_1_tb File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v
+#         Searched libraries:
+#             D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/work
+# ** Error: (vsim-3033) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v(27): Instantiation of 'mux_4_1_df1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_4_1_tb File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v
+#         Searched libraries:
+#             D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/work
+# ** Error: (vsim-3033) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v(32): Instantiation of 'mux_4_1_df2' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_4_1_tb File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v
+#         Searched libraries:
+#             D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/work
+# ** Error: (vsim-3033) D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v(37): Instantiation of 'mux_4_1_df3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_4_1_tb File: D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/mux_4_1_tb.v
+#         Searched libraries:
+#             D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 3/work
+# Error loading design
+# End time: 19:59:56 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# Compile of mux_4_1_df3.v was successful.
+# Compile of mux_4_1_df1.v was successful.
+# Compile of mux_4_1_df2.v was successful.
+# Compile of mux_2_1_df.v was successful.
+# Load canceled
+# Compile of mux_4_1_bh.v was successful.
+vsim -gui work.mux_4_1_tb
+# vsim -gui work.mux_4_1_tb 
+# Start time: 20:01:50 on Mar 19,2024
+# Loading work.mux_4_1_tb
+# Loading work.mux_4_1_bh
+# Loading work.mux_4_1_df1
+# Loading work.mux_4_1_df2
+# Loading work.mux_4_1_df3
+add wave -position insertpoint  \
+sim:/mux_4_1_tb/I \
+sim:/mux_4_1_tb/S \
+sim:/mux_4_1_tb/Y0 \
+sim:/mux_4_1_tb/Y1 \
+sim:/mux_4_1_tb/Y2 \
+sim:/mux_4_1_tb/Y3 \
+sim:/mux_4_1_tb/compare
+run
+# time =                    0, 	 comparison = 1 
+# time =                   10, 	 comparison = 1 
+# time =                   20, 	 comparison = 1 
+# time =                   50, 	 comparison = 1 
+# time =                   60, 	 comparison = 1 
+# time =                   70, 	 comparison = 1 
+# time =                   80, 	 comparison = 1 
+# time =                  110, 	 comparison = 1 
+# time =                  130, 	 comparison = 1 
+# time =                  150, 	 comparison = 1 
+# time =                  160, 	 comparison = 1 
+# time =                  180, 	 comparison = 1 
+# time =                  190, 	 comparison = 1 
+# time =                  210, 	 comparison = 1 
+# time =                  220, 	 comparison = 1 
+# time =                  230, 	 comparison = 1 
+# time =                  240, 	 comparison = 1 
+# time =                  250, 	 comparison = 1 
+# time =                  260, 	 comparison = 1 
+# time =                  270, 	 comparison = 1 
+# time =                  290, 	 comparison = 1 
+# time =                  310, 	 comparison = 1 
+# time =                  340, 	 comparison = 1 
+# time =                  350, 	 comparison = 1 
+# time =                  360, 	 comparison = 1 
+# time =                  390, 	 comparison = 1 
+# time =                  400, 	 comparison = 1 
+# time =                  410, 	 comparison = 1 
+# time =                  420, 	 comparison = 1 
+# time =                  440, 	 comparison = 1 
+# time =                  460, 	 comparison = 1 
+# time =                  470, 	 comparison = 1 
+# time =                  480, 	 comparison = 1 
+# time =                  490, 	 comparison = 1 
+# time =                  500, 	 comparison = 1 
+# time =                  510, 	 comparison = 1 
+# time =                  530, 	 comparison = 1 
+# time =                  540, 	 comparison = 1 
+# time =                  560, 	 comparison = 1 
+# time =                  580, 	 comparison = 1 
+# time =                  600, 	 comparison = 1 
+# time =                  610, 	 comparison = 1 
+# time =                  620, 	 comparison = 1 
+# time =                  630, 	 comparison = 1 
+# time =                  660, 	 comparison = 1 
+# time =                  670, 	 comparison = 1 
+# time =                  700, 	 comparison = 1 
+# time =                  710, 	 comparison = 1 
+# time =                  760, 	 comparison = 1 
+# End time: 20:04:13 on Mar 19,2024, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
