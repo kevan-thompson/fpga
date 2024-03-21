@@ -4,9 +4,8 @@
 File Name:	mux_4_1_tb.v
 Author: 	Kevan Thompson
 Date:		March 16, 2024
-Description: A testbench comparing a structural and dataflow
-            implementation of a 4 bit adder. 
-
+Description: A testbench comparing different 4 to 1 mux. 
+             implementations
 ***********************************************************/
 
 module mux_4_1_tb;

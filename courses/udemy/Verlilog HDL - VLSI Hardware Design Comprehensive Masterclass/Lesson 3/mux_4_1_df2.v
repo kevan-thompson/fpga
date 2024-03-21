@@ -12,6 +12,7 @@ module mux_4_1_df2(
 	output  Y
 );
 
+//This is a confusing way to implement a mux
 assign Y = ~|S?I[0]:(&S?I[3]:(S[0]?I[1]:I[2]));
     
 endmodule
