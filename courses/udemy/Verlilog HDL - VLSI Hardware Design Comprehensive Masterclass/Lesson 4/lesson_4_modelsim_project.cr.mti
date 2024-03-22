@@ -1,0 +1,15 @@
+{D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_bh.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_bh.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dlatch_bh
+
+Top level modules:
+	dlatch_bh
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_df.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_df.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dlatch_df
+
+Top level modules:
+	dlatch_df
+
+} {} {}}
