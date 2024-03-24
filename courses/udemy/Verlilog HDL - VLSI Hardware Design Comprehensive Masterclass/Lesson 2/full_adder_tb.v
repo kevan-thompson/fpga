@@ -17,6 +17,10 @@ reg a,b,cin;
 wire s_st1, s_st2, s_df, s_bh;
 wire cout_st1, cout_st2, cout_df, cout_bh;
 
+//---------------------------------------------------------
+//Instantiate DUTs
+//---------------------------------------------------------
+	
 full_adder_st full_adder_st_dut(
 	.a(a),
 	.b(b),
@@ -49,7 +53,10 @@ full_adder_bh full_adder_bh_dut(
 	.cout(cout_bh)
 );
 
-
+//---------------------------------------------------------
+//Run Tests
+//---------------------------------------------------------
+	
 initial
 begin
 	$monitor("time = %d,\t a = %b,\t b = %b,\t cin = %b,\t
