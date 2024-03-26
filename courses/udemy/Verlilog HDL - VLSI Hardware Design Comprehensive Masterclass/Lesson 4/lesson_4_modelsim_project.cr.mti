@@ -1,23 +1,37 @@
-{D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_nsr_ss.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_nsr_ss.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dff_nsr_ss
-
-Top level modules:
-	dff_nsr_ss
-
-} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_ne_ar.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_ne_ar.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dff_ne_ar
-
-Top level modules:
-	dff_ne_ar
-
-} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/reg_set.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/reg_set.v}
+{D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/reg_set.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/reg_set.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module reg_set
 
 Top level modules:
 	reg_set
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/usr.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/usr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module usr
+
+Top level modules:
+	usr
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/sr_lr.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/sr_lr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module sr_lr
+
+Top level modules:
+	sr_lr
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/count_up_basic.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/count_up_basic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module count_up_basic
+
+Top level modules:
+	count_up_basic
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_nsr_ss.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_nsr_ss.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dff_nsr_ss
+
+Top level modules:
+	dff_nsr_ss
 
 } {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_sr_ss.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_sr_ss.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -40,20 +54,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	dlatch_df
 
-} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/usr.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/usr.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module usr
-
-Top level modules:
-	usr
-
-} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/sr_lr.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/sr_lr.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module sr_lr
-
-Top level modules:
-	sr_lr
-
 } {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_ar.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dlatch_ar.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module dlatch_ar
@@ -67,6 +67,27 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 
 Top level modules:
 	dffb
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/fifo.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/fifo.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module count_up_down
+
+Top level modules:
+	count_up_down
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/count_up_down.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/count_up_down.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module count_up_down
+
+Top level modules:
+	count_up_down
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_ne_ar.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_ne_ar.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dff_ne_ar
+
+Top level modules:
+	dff_ne_ar
 
 } {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_pe_ar.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 4/dff_pe_ar.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
