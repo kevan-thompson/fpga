@@ -1,0 +1,8 @@
+{D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 6/seq_001.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 6/seq_001.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module seq_001
+
+Top level modules:
+	seq_001
+
+} {} {}}

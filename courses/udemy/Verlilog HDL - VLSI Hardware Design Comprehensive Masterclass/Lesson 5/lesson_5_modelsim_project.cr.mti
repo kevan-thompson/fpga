@@ -5,18 +5,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	ram_single_port2
 
-} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/dual_port_ram.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/dual_port_ram.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dual_port_ram
-
-Top level modules:
-	dual_port_ram
-
 } {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/ram_single_port.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/ram_single_port.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module ram_single_port
 
 Top level modules:
 	ram_single_port
+
+} {} {}} {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/dual_port_ram.v} {1 {vlog -work work -stats=none {D:/dev/fpga/courses/udemy/Verlilog HDL - VLSI Hardware Design Comprehensive Masterclass/Lesson 5/dual_port_ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dual_port_ram
+
+Top level modules:
+	dual_port_ram
 
 } {} {}}
