@@ -8,7 +8,7 @@ Description: An 8 bit fifo with a maximum capacity of 64
             with the number of elements in the fifo.
 
 ***********************************************************/
-module count_up_down(
+module fifo(
     input clk,
     input rst,
     input wr_en,                 //write enable
