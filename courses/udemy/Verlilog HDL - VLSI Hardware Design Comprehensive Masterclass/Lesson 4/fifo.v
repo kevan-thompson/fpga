@@ -1,5 +1,5 @@
 /***********************************************************
-File Name:	count_up_down.v
+File Name:	fifo.v
 Author: 	Kevan Thompson
 Date:		March 25, 2024
 Description: An 8 bit fifo with a maximum capacity of 64 
