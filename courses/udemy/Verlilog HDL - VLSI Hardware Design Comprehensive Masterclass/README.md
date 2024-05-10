@@ -36,3 +36,4 @@ Work through the lessons at your own pace.
 **Lesson 5**: Desiging Memories   
 **Lesson 6**: Desiging Finite State Machine   
 
+![certificate](./udemy_certificate.jpg)
