@@ -1,5 +1,5 @@
 /***********************************************************
-File Name:	count_up_down.v
+File Name:	fifo.v
 Author: 	Kevan Thompson
 Date:		March 25, 2024
 Description: An 8 bit fifo with a maximum capacity of 64 
@@ -8,7 +8,7 @@ Description: An 8 bit fifo with a maximum capacity of 64
             with the number of elements in the fifo.
 
 ***********************************************************/
-module count_up_down(
+module fifo(
     input clk,
     input rst,
     input wr_en,                 //write enable
