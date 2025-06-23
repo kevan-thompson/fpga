@@ -11,4 +11,16 @@ The testbench **gates_tb.vhd** is a basic testbench that can be used to simulate
 
 ## 2) Adders
 
-TBD
+The file **full_adder.vhd** implements a full adder. The circuit for a full adder is shown below:
+
+![full_adder](./.images/full_adder.png)
+
+A testbench for the full adder is found in **full_adder_tb.vhd**
+
+The full adder is then used as a component in **ripple_carry_adder.vhd** to create an 8 bit ripple carry adder. The circuit for an 8 bit ripple carry adder is shown below.
+
+![ripple_carry_adder](./.images/ripple_carry_adder_8_bit.jpg)
+
+The testbench for the ripple carry adder can be found in **ripple_carry_adder_tb.vhd**
+
+## 3) TBD
