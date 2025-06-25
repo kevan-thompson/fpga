@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------
---File Name:    gates.vhd
+--File Name:    gates_tb.vhd
 --Author:       Kevan Thompson 
 --Date:         June 18, 2025
 --Description:  Basic testbench for gates.vhd
