@@ -1,10 +1,9 @@
 -------------------------------------------------------------------------------------
 --File Name:    multiplexers.vhd
 --Author:       Kevan Thompson 
---Date:         June 18, 2025
---Description:  This is a shows a basic implemtation of 
---              each basic logic gate. (Not, AND, OR, XOR, 
---              NAND, NOR, XNOR)
+--Date:         June 24, 2025
+--Description:  This file shows 5 different implementations
+--              of a 2x1 multiplexer
 -------------------------------------------------------------------------------------
 
 library IEEE;
@@ -31,6 +30,12 @@ begin
     y_gates <= (a and (not s)) or (b and s);
 
     --When/Else
+    --This is a conditional assignment
+    --You MUST cover all conditions or include an else
+    --Failure to do so will likely infer a latch! 
+    --(Latches are bad on FPGAs!)
+    --This is also true for with select, if/else or case
+    --see below...
     y_when <= a when s = '0' else b; 
     
     --With/Select
@@ -41,8 +46,21 @@ begin
             a when '0',
             b when others; --default condition
 
+    --<label> process: (<sensativity list>)
+    -- The sensativity list is a list of all ports, 
+    -- and signals that will cause the procss to
+    -- "execute" on a change. Generally anything on
+    -- the right of an assignment for logic. Or clocks
+    -- for anything registered
+    
     if_process: process(a,b)
     begin
+        --Anything outside of a project is concurren, but
+        --inside a process statements are sequential!
+        --But beware the difference between <= and :=
+        
+        --For each if, you must either cover every case with
+        --with an elsif or with an else
         if(s = '0') then
             y_if <= a;
         else 
@@ -52,9 +70,11 @@ begin
     
     case_process: process(a,b) 
     begin
+        --for every case you must either cover every case 
+        --or include a "when others"
         case s is
             when '0' => y_case <= a;
-            when others => y_case <=b;
+            when others => y_case <=b; --default case
         end case;
     end process case_process;    
         
