@@ -51,11 +51,13 @@ begin
     -- and signals that will cause the procss to
     -- "execute" on a change. Generally anything on
     -- the right of an assignment for logic. Or clocks
-    -- for anything registered
+    -- for anything 
+    
+    --In VHDL 2008 you can also use process(all)
     
     if_process: process(a,b)
     begin
-        --Anything outside of a project is concurren, but
+        --Anything outside of a project is concurrent, but
         --inside a process statements are sequential!
         --But beware the difference between <= and :=
         
