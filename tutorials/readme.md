@@ -50,3 +50,9 @@ A testbench is implemented in **multiplexers_tb.vhd**. This testbench will show 
 These files will show you how to:   
 - Do concurrent conditional assignments (When/Else and With/Select)
 - Do sequential conditional assignments (If/Else, and Case)
+
+## 4) Flip-Flops
+
+The truth tables for D, JK, and T Flip-Flops are shown below:
+
+![Flip_flops](./.images/flip_flops.png)
