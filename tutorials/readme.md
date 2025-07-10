@@ -66,3 +66,8 @@ The truth table for a D Latch is shown below:
 A latch is similar to a flip flop, except that it is level triggered and not edge triggered.
 
 FPGAs are not designed to use latches. **DO NOT USE LATCHES ON FPGAs**
+
+These files will show you how to:   
+- Implement various flip flops
+- Nested IF/ELSE/ELSIF
+- Rising and Falling Edges
