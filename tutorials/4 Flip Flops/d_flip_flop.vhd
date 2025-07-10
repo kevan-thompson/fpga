@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------
---File Name:    d_flip_flop.vhd.vhd
+--File Name:    d_flip_flop.vhd
 --Author:       Kevan Thompson 
 --Date:         June 26, 2025
 --Description:  This is a D Flip Flop with a 
@@ -17,7 +17,7 @@ entity d_flip_flop is
         --Inputs
         d       : in std_logic;
         --OUTPUTS
-        q       : out std_logic --Note no ; on the last port
+        q       : out std_logic
     );
 end d_flip_flop;
 

@@ -56,3 +56,13 @@ These files will show you how to:
 The truth tables for D, JK, and T Flip-Flops are shown below:
 
 ![Flip_flops](./.images/flip_flops.png)
+
+A Flip Flop is essentially a 1 bit memory who's value changes on a rising or falling edge of a clock. A D, T, and JK flip flop are implemented in **d_flip_flop.vhd**, **t_flip_flop.vhd**, and **jk_flip_flop.vhd**
+
+The truth table for a D Latch is shown below:
+
+![Flip_flops](./.images/d_latch.png)
+
+A latch is similar to a flip flop, except that it is level triggered and not edge triggered.
+
+FPGAs are not designed to use latches. **DO NOT USE LATCHES ON FPGAs**
