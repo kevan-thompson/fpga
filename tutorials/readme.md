@@ -71,3 +71,23 @@ These files will show you how to:
 - Implement various flip flops
 - Nested IF/ELSE/ELSIF
 - Rising and Falling Edges
+
+## 5) State Machines
+
+Finite State Machines (FSM) are a type of sequential logic. This is a type of logic where the output depends not only on the current inputs, but also past inputs (aka the state)
+
+There are two types of state machines, Mealy and Moore State machines. See below:
+
+![State_Machines](./.images/state_machines.jpg)
+
+The main difference is the output of a Moore state machine depends only on the state. This requires 1 extra state, and the output will be synchronous to the clock.
+
+The output of a Mealy state machine depends on the state, and the inputs. This means the output can change on a transition, and can be asynchronous to the clock.
+
+State machines are often describes using state diagrams. These diagrams show when a state machine transitions from one state to another, and the output at each state or transition.
+
+A classic state machine problem is sequence detection. The following state diagram describes a state machine to detect the bit sequence 110:
+
+![States](./.images/states.png)
+
+ This state machine is implemented in sequence_detect.vhd.
